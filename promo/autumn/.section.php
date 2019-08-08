@@ -1,3 +1,6 @@
 <?
-$sSectionName="autumn";
+$sSectionName = "autumn";
+$arDirProperties = Array(
+
+);
 ?>

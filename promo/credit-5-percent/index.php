@@ -33,7 +33,7 @@ $APPLICATION->SetTitle("Это пять!");
 
                 <h1 class="title-offer bordr-btm"><span class="nowrp">Это пять!</span></h1>
 
-                <div class="offer-terms bordr-btm" style="border-bottom: none">
+                <div class="offer-terms bordr-btm">
                     <div class="offers-block">
                         <div class="row-inline clearfix">
                             <!--<h2 class="title-offer__lev02 multiple-cars">Это пять!</h2>-->
@@ -54,22 +54,21 @@ $APPLICATION->SetTitle("Это пять!");
 
                         <div class="offer-actions clearfix">
                             <div class="row row-left" style="text-align: center;">
-                                <a href="http://www.hyundai.ru/configurator/car/23/#calculator" target="_blank"><img src="img/Solaris.jpg" alt="Solaris" width="400" height="230"><br>Рассчитать кредит</a>
+                                <a href="/configurator/"><img src="img/Solaris.jpg" alt="Solaris" width="400" height="230"><br>Рассчитать кредит</a>
                             </div>
                             <div class="row row-right" style="text-align: center;">
                                 <div class="offer-actions__button-span">
-                                    <a href="http://www.hyundai.ru/configurator/car/22/#calculator" target="_blank"><img src="img/Creta.jpg" alt="Creta" width="400" height="230"><br>Рассчитать кредит</a>
+                                    <a href="/configurator/"><img src="img/Creta.jpg" alt="Creta" width="400" height="230"><br>Рассчитать кредит</a>
                                 </div></div>
 
                             <div class="offer-actions clearfix">
                                 <div class="row row-left" style="margin-top: 50px; text-align: center;">
-                                    <a href="http://www.hyundai.ru/configurator/car/18/#calculator" target="_blank"><img src="img/Tucson.jpg" alt="Tucson" width="400" height="230"><br>Рассчитать кредит</a>
+                                    <a href="/configurator/"><img src="img/Tucson.jpg" alt="Tucson" width="400" height="230"><br>Рассчитать кредит</a>
                                 </div>
                                 <div class="row row-right" style="margin-top: 50px; text-align: center;">
                                     <div class="offer-actions__button-span">
-                                        <a href="http://www.hyundai.ru/configurator/car/7/#calculator" target="_blank"><img src="img/Elantra.jpg" alt="Elantra" width="400" height="230"><br>Рассчитать кредит</a>
-                                    </div>
-                                </div>
+                                        <a href="/configurator/"><img src="img/Elantra.jpg" alt="Elantra" width="400" height="230"><br>Рассчитать кредит</a>
+                                    </div></div>
 
                                 <!-- additional terms as footer -->
 
@@ -77,9 +76,11 @@ $APPLICATION->SetTitle("Это пять!");
 
 
 
+
+
                                 <div class="tip-supscript ">
                                     <p style="font-size: 10px;">
-                                        5.0% годовых – процентная ставка в кредитном договоре. Валюта кредита - рубли РФ; уровень первоначального взноса от 30% от стоимости автомобиля. Срок кредита 12-36 месяцев. Программа распространяется на покупку в кредит Hyundai Solaris, Creta (код комплектации CTW52G61GGG013), Elantra, Tucson. Программой предусмотрено страхование жизни и здоровья заемщика. Минимальная сумма кредита – 50 000 руб., максимальная сумма кредита – 6 500 000 руб.. Обязательно подтверждение дохода клиента. Залоговое обеспечение - залог приобретаемого ТС. Обязательно оформление полиса КАСКО на весь срок кредита в страховых компаниях, соответствующих требованиям Банка. Кредит предоставляется ООО «Русфинанс Банк» Генеральная лицензия ЦБ РФ №1792 от 13.02.2013г. Предложение действует с 01.07.18 по 31.07.18, не является офертой. Условия могут быть изменены Банком в одностороннем порядке.
+                                        *5.0% годовых – процентная ставка в кредитном договоре. Валюта кредита - рубли РФ; уровень первоначального взноса от 30% от стоимости автомобиля. Срок кредита 12-36 месяцев. Программа распространяется на покупку в кредит Hyundai Solaris, Creta (код комплектации CTW52G61GGG013), Elantra, Tucson. Программой предусмотрено страхование жизни и здоровья заемщика. Минимальная сумма кредита – 50 000 руб., максимальная сумма кредита – 6 500 000 руб.. Обязательно подтверждение дохода клиента. Залоговое обеспечение - залог приобретаемого ТС. Обязательно оформление полиса КАСКО на весь срок кредита в страховых компаниях, соответствующих требованиям Банка. Кредит предоставляется ООО «Русфинанс Банк» Генеральная лицензия ЦБ РФ №1792 от 13.02.2013г. Предложение действует с 01.06.18 по 30.06.18, не является офертой. Условия могут быть изменены Банком в одностороннем порядке.
                                     </p>
                                 </div>
 
@@ -108,7 +109,6 @@ $APPLICATION->SetTitle("Это пять!");
 <!--
 Контент страницы закончится тут
 -->
-
 
 
 

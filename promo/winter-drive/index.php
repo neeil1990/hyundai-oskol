@@ -22,10 +22,12 @@ $APPLICATION->SetTitle("Зима на драйве!");
             <!-- WARNING -->
             <!-- this checks only img src!! no checking by offer ID -->
 
-                                            <img class="promo-head" src="http://hyundai-oskol.ru/img/img-zima-na-drajve.jpg" style=""/>
-                    
+                                            <img class="promo-head" src="http://hyundai-belgorod.ru//media/banners_image/Баннер_сайт_1920х530.jpg
+" style=""/>
+
             <!-- old syntax: -->
-            <!-- <img class="promo-head" src="http://hyundai-oskol.ru/img/img-zima-na-drajve.jpg" style=""/> -->
+            <!-- <img class="promo-head" src="http://hyundai-belgorod.ru//media/banners_image/Баннер_сайт_1920х530.jpg
+" style=""/> -->
 
         <!-- end of hiding banner-->
 
@@ -38,14 +40,15 @@ $APPLICATION->SetTitle("Зима на драйве!");
                         <div class="row-inline">
                             <p class="offer-terms__text">
 							Наступление зимы – настоящий праздник, дарящий сказочные ощущения благодаря белому бархатистому снегу, солнечным морозным дням и новогодним праздникам.<br><br>
-Встречайте зимний сезон в дилерском центре Ринг Авто Оскол Hyundai <b> 23 декабря!</b>
+Встречайте зимний сезон в Ринг Авто Hyundai   <b>23 декабря в 12:00!</b>
 <br>
+- Зимние тест-драйвы всего модельного ряда;<br>
+- Увлекательные мастер-классы и активности для всей семьи;<br>
+- Подарки, впечатления и самые долгожданные новогодние спец. предложения на покупку нового Hyundai.<br><br>
 Самые яркие эмоции ждут вас!<br><br>
-Подробности в отделе продаж Ринг Авто Оскол по тел.:  +7 (4725) 46-00-22<br>
 
                             </p>
                     </div>
-
 
 
 </div>

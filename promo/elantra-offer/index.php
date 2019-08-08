@@ -1,28 +1,26 @@
-
- <?
+<?
 require($_SERVER["DOCUMENT_ROOT"]."/bitrix/header.php");
-$APPLICATION->SetTitle("elantra-offer");
+$APPLICATION->SetTitle("elantra_offer");
 ?>
 
- 
- <div class="offers-container">
+    <div class="offers-container">
         <div class="content_area">
             <!-- hide elantra and ix35 banner-->
 
             <!-- WARNING -->
             <!-- this checks only img src!! no checking by offer ID -->
 
-            <img alt="elantra_offer 90e2d4a046f1cf1245bbae0d58f2ead2_elantra.jpg" class="promo-head" src="http://www.hyundai.ru/media/offers_image/90e2d4a046f1cf1245bbae0d58f2ead2_elantra.jpg" style="">
+            <img class="promo-head" src="http://www.hyundai.ru/media/offers_image/90e2d4a046f1cf1245bbae0d58f2ead2_elantra.jpg" style="">
 
             <!-- old syntax: -->
-            <!-- <img alt="elantra_offer e9af6d87b8b138685dc83ab3a302d792_Elantra.jpg" class="promo-head" src="http://www.hyundai.ru/media/offers_image/e9af6d87b8b138685dc83ab3a302d792_Elantra.jpg" style=""/> -->
+            <!-- <img class="promo-head" src="http://www.hyundai.ru/media/offers_image/e9af6d87b8b138685dc83ab3a302d792_Elantra.jpg" style=""/> -->
 
             <!-- end of hiding banner-->
 
             <div class="offers-content">
 
 
-                <script src="/media/js/wcm.consumption.js"></script>
+                <script type="text/javascript" src="/media/js/wcm.consumption.js"></script>
 
                 <script language="javascript">
                     WCM.consumptionContext=""
@@ -82,11 +80,11 @@ $APPLICATION->SetTitle("elantra-offer");
 
                         <div class="row row-right">
                             <div class="offer-actions__button-span">
-                                <a href="http://www.hyundai.ru/configurator/?car_id=18" class="offer-actions__button config">Конфигуратор</a>
+                                <a href="/configurator/" class="offer-actions__button config">Конфигуратор</a>
                                 <div id="brochure_requester"><a data-gtm-havas-model="elantra" href="#" data-model="Elantra" for="brochures_request" target="_blank" class="zing_form_toggler offer-actions__button brosh">Брошюра</a></div>
                             </div>
                             <div class="offer-actions__button-span">
-                                <a href="http://www.hyundai.ru/configurator/?car_id=18?calc_open=1" class="offer-actions__button credit">Кредит</a>
+                                <a href="/configurator/" class="offer-actions__button credit">Кредит</a>
                                 <a href="#" class="offer-actions__button testdrive">Тест-драйв</a>
                             </div>
                             <a class="offer-actions__description" href="http://www.hyundai.ru/Elantra">Описание модели &gt;</a>
@@ -94,7 +92,20 @@ $APPLICATION->SetTitle("elantra-offer");
 
 
                     </div>
-<div class="clearfix"></div>
+
+                    <!--<p class="offer-terms__text"><a href="/Elantra#contest" target="blank" >Участвуй в конкурсе вместе с новой Hyundai Elantra! Выиграй два билета в кино!</a></p>-->
+                    <!--<div class="payment-offer__wrp payments-item-col__offer"><a href="/Elantra#contestlink" target="blank" ><span class="payment-offer">Участвуй в конкурсе вместе с новой Hyundai Elantra! Выиграй два билета в кино!</span></a></div>-->
+
+                    <!-- additional terms as footer -->
+
+
+                    <!-- <div class="row row-left">
+                         <p class="other-terms__p">Hyundai Solaris</p>
+                     </div>
+                     <div class="row row-right">
+                         <p class="other-terms__p">Кредит предоставляется «Сетелем Банк» ООО, лицензии №2168. Кредит погашается ежемесячными платежами. Сведения носят информационных характер и не являются публичной офертой.</p>
+                     </div>-->
+                    <div class="clearfix"></div>
 
 
 
@@ -107,26 +118,21 @@ $APPLICATION->SetTitle("elantra-offer");
                 </div>
 
             </div>
-<style>.scroll_me a{
-            width:50px;
-            height: 50px;
-            background: url("/media/img/to_top.png");
-            position: fixed;
-            bottom: 50px;
-            right: 21px;
-            z-index: 999;
-            cursor: pointer;
-            opacity: 0.7;
-            display: none;
-        }
-        .scroll_me a:hover{
-            opacity:1;
-        }
-        
-        .btn_area1>a>img{
-            max-width: 220px;
-        }
-        .btn_area1>a:hover{
-            opacity:.8;
-        }
-    </style>
+            <!-- additional terms as footer ends -->
+            <!-- <div class="tip-supscript bordr-btm">
+                <p>1 — рекомендуемая максимальная розничная цена <span class="nowrp">Hyundai Elantra</span>, комплектация Base 1.6 MT с учетом скидки <span class="nowrp">40 000 ₽</span></p>
+                <p>2 — скидка <span class="nowrp">40 000 ₽</span> предоставляется <a class="loyalty" href="#">лояльным клиентам</a> Hyundai, приобретающим Hyuendai Elantra</p>
+            </div>
+            <div class="title-offer__other-terms">прочие условия</div>
+            <div class="row row-left">
+                <p class="other-terms__p">Иные расходы — страхование автомобиля по рискам «угон или хищение», «ущерб» по иному пакету КАСКО — в соответствии<br>с тарифами сраховой компании, соответствующей требованиям Банка к страховым компаниям и условиям страхования.</p>
+            </div>
+            <div class="clearfix"></div>
+        </div>
+
+    </div> -->
+            <div class="clearfix"></div>
+        </div>
+    </div>
+
+<?require($_SERVER["DOCUMENT_ROOT"]."/bitrix/footer.php");?>

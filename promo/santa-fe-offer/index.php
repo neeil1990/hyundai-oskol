@@ -26,7 +26,7 @@ $APPLICATION->SetTitle("santa_fe_offer");
 					</div>
 					<div class="row-inline">
 						<p class="offer-terms__text">
-							 Выгода до 300 000* руб. на Hyundai Santa fe! Ознакомиться с ценами и рассчитать кредит вы можете в конфигураторе.<br>
+							 Выгода до 30 000* руб. на Hyundai Santa fe! Ознакомиться с ценами и рассчитать кредит вы можете в конфигураторе.<br>
 							<br>
 							Отправьте сконфигурированный автомобиль с расчетом кредита или без него любому дилеру на последнем шаге создания конфигурации. Дилер перезвонит вам и вы сможете продолжить общение именно по той версии автомобиля, которую сконфигурировали для себя.
 						</p>
@@ -37,14 +37,14 @@ $APPLICATION->SetTitle("santa_fe_offer");
 						</div>
 						<div class="row row-right">
 							<div class="offer-actions__button-span">
- <a href="http://www.hyundai.ru/configurator/car?car_id=29" class="offer-actions__button config">Конфигуратор</a>
+ <a href="/configurator/" class="offer-actions__button config">Конфигуратор</a>
 								<div id="brochure_requester">
 									<a data-gtm-havas-model="santafe" href="#" data-model="Santa Fe" for="brochures_request" target="_blank" class="zing_form_toggler offer-actions__button brosh">Брошюра</a>
 								</div>
 							</div>
 						</div>
 						<div class="offer-actions__button-span">
- <a href="http://www.hyundai.ru/configurator/?car_id=29?calc_open=1" class="offer-actions__button credit">Кредит</a> <a href="#" class="offer-actions__button testdrive">Тест-драйв</a>
+ <a href="/configurator/" class="offer-actions__button credit">Кредит</a> <a href="#" class="offer-actions__button testdrive">Тест-драйв</a>
 						</div>
  <a class="offer-actions__description" href="http://www.hyundai.ru/SantaFe">Описание модели &gt;</a>
 					</div>
@@ -53,7 +53,7 @@ $APPLICATION->SetTitle("santa_fe_offer");
 					</div>
 					<div class="tip-supscript ">
 						<p style="font-size: 10px;">
-							*Выгода рассчитывается путем суммирования скидки 100 000 рублей (предоставляющейся от рекомендованной максимальной розничной цены с учетом НДС, приобретающим автомобиль Santa Fe 2017&nbsp;производственного года), скидки 200 000 рублей по программе трейд-ин и скидки 100 000 рублей по программе трейд-ин для лояльных клиентов Hyundai. Предложение действительно до 31.12.2017г.
+							 *Выгода рассчитывается путем суммирования скидки 100 000 рублей (предоставляющейся от рекомендованной максимальной розничной цены с учетом НДС, приобретающим автомобиль Santa Fe 2017&nbsp;производственного года), скидки 200 000 рублей по программе трейд-ин и скидки 100 000 рублей по программе трейд-ин для лояльных клиентов Hyundai. Предложение действительно до 31.12.2017г.
 						</p>
 					</div>
 					<div class="clearfix">
