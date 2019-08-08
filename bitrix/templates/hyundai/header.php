@@ -128,7 +128,7 @@
                 </svg>
             </a>
             <div class="support-service__dropdown">
-                <a class="support-service__dd-phone" href="tel:+74722333377">+7 4722 33-33-77</a>
+                <a class="support-service__dd-phone" href="tel:+7 4725 46-00-22">+7 4725 46-00-22</a>
                 <hr>
                 <a class="support-service__dd-mail" href="/Contact">
                     <svg role="img" aria-hidden="true">
