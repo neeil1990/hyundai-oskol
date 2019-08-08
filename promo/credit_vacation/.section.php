@@ -1,0 +1,3 @@
+<?
+$sSectionName="credit_vacation";
+?>

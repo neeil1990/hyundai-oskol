@@ -10,13 +10,35 @@ $APPLICATION->SetTitle("all-offers");
             <!-- just offers ok let's go -->
 			
 		
+			      <div class="offers_divider__content__offers-grid-section clearfix">
+		
+			 <div class="insection-offer-unit">
+                    <a href="/promo/credit_vacation" class="insection-offer-unit__link">
+                        <img src="https://www.hyundai.ru/media/offers_image/0b00ad4f17574df47ea9b8c84f4b93fa_465%D1%85330%20(3).jpg" alt="" class="insection-offer-unit__back-img">
+                        <div class="insection-offer-unit__info">
+                            <span class="name">Кредитные каникулы<br>
+Теперь весь модельный ряд!</span>
+                            <span class="addinfo"></span>
+                        </div>
+                    </a>
+                </div>
+			
+		
+		
+			
+				 <div class="insection-offer-unit">
+                    <a href="/promo/solaris_super_series" class="insection-offer-unit__link">
+                        <img src="https://www.hyundai.ru/media/offers_image/03a77b505bf9e4c4d028173b4e819ba5_465%D1%85330.png" alt="" class="insection-offer-unit__back-img">
+                        <div class="insection-offer-unit__info">
+                            <span class="name">SOLARIS Super Series</span>
+                            <span class="addinfo"></span>
+                        </div>
+                    </a>
+                </div>
 			
 			
 			
-			
-			
-			
-            <div class="offers_divider__content__offers-grid-section clearfix">
+        
 		 <div class="insection-offer-unit">
                     <a href="/start/" class="insection-offer-unit__link">
                         <img src="https://www.hyundai.ru/media/offers_image/609ef8839c9e9834efa0e2ac95efadf2_start_new.jpg" alt="" class="insection-offer-unit__back-img">
@@ -27,20 +49,12 @@ $APPLICATION->SetTitle("all-offers");
                     </a>
                 </div>
 				
-					<div class="insection-offer-unit">
-							<a href="/promo/trade-in_offer" class="insection-offer-unit__link">
-								<img src="https://www.hyundai.ru/media/offers_image/58754491c057742653047046093d240c_Santa_fe+Tucson_preview-banner_1900x530px_Apr2019.jpg" alt="" class="insection-offer-unit__back-img">
-								<div class="insection-offer-unit__info">
-									<span class="name">Выгода на Hyundai SANTA FE и TUCSON 2018 модельного года.</span>
-	 								<span class="addinfo"></span>
-								</div>
-							</a>
-						</div>
+			
 				
 
 			
 		
-			<div class="insection-offer-unit">
+			<!--<div class="insection-offer-unit">
 							<a href="/promo/cska_sponsorship" class="insection-offer-unit__link">
 								<img src="http://hyundai-oskol.ru/media/offers_image/173ebfbe7978e691bcadcbb5e_CSKA_new_preview.jpg" alt="" class="insection-offer-unit__back-img">
 								<div class="insection-offer-unit__info">
@@ -49,8 +63,28 @@ $APPLICATION->SetTitle("all-offers");
 								</div>
 							</a>
 						</div>
-			
-			
+						
+						
+			<div class="insection-offer-unit">
+							<a href="/promo/new_owners" class="insection-offer-unit__link">
+								<img src="https://www.hyundai.ru/media/offers_image/c4b4091523c14066560a7b616957b995_First_car_preview.jpg" alt="" class="insection-offer-unit__back-img">
+								<div class="insection-offer-unit__info">
+									<span class="name">Первый автомобиль.<br>Выгода 10% на Creta и Solaris</span>
+	 								<span class="addinfo"></span>
+								</div>
+							</a>
+						</div>
+						
+						
+					<div class="insection-offer-unit">
+							<a href="/promo/family_car" class="insection-offer-unit__link">
+								<img src="https://www.hyundai.ru/media/offers_image/2e5ac81fe811610516c4aa94d346cef7_Family_car_preview.jpg" alt="" class="insection-offer-unit__back-img">
+								<div class="insection-offer-unit__info">
+									<span class="name">Семейный автомобиль.<br>Выгода 10% на Creta и Solaris</span>
+	 								<span class="addinfo"></span>
+								</div>
+							</a>
+						</div>-->
 			
 <!--<div class="insection-offer-unit">
 							<a href="/promo/new_elantra_launch" class="insection-offer-unit__link">
@@ -220,7 +254,15 @@ $APPLICATION->SetTitle("all-offers");
 								</div>
 							</a>
 						</div>
-			
+				<div class="insection-offer-unit">
+							<a href="/promo/pobednaya-vygoda-na-hyundai-tucson" class="insection-offer-unit__link">
+								<img src="http://hyundai-oskol.ru/media/offers_image/tucson-akciya-prevy.jpg" alt="" class="insection-offer-unit__back-img">
+								<div class="insection-offer-unit__info">
+									<span class="name">Победная выгода на автомобили Hyundai Tucson.</span>
+	 								<span class="addinfo"></span>
+								</div>
+							</a>
+						</div>
 				
             </div>
 		
@@ -257,16 +299,16 @@ $APPLICATION->SetTitle("all-offers");
                         </div>
                     </a>
                 </div> -->
-
-                <div class="insection-offer-unit">
-                    <a href="/promo/shell" class="insection-offer-unit__link">
-                        <img src="http://www.hyundai.ru/media/offers_image/6ebc6ed21af371078e33b6d1aca29d87_banner_solaris.jpg" alt="" class="insection-offer-unit__back-img">
+ <div class="insection-offer-unit">
+                    <a href="/promo/aktsiya-bud-zdorov" class="insection-offer-unit__link">
+                        <img src="http://hyundai-oskol.ru/upload/avtomobilnye-konditsionery.jpg" alt="" class="insection-offer-unit__back-img">
                         <div class="insection-offer-unit__info">
-                            <span class="name">Новые рекорды с сервисом Hyundai</span>
+                            <span class="name">Акция «Будь здоров»</span>
                             <span class="addinfo"></span>
                         </div>
                     </a>
                 </div>
+        
 
                 <div class="insection-offer-unit">
                     <a href="/pl2/" class="insection-offer-unit__link">

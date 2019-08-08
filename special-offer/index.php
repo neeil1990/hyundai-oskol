@@ -48,9 +48,16 @@ $APPLICATION->SetTitle("NewSolaris");
                             </p>
                             <div class="model__selects">
                                 <select class="model__select" name="car">
+										<option
+									value="22"
+									data-tradein="40000"
+									data-programm="0"
+									data-points="10000"
+								>
+									CRETA								</option>
                                     <option
                                         value="23"
-                                        data-tradein="20000"
+                                        data-tradein="50000"
                                         data-programm="0"
                                         data-points="10000"
                                         >
@@ -78,7 +85,7 @@ $APPLICATION->SetTitle("NewSolaris");
                                         Обновленный TUCSON								</option>
                                     <option
                                         value="25"
-                                        data-tradein="120000"
+                                        data-tradein="160000"
                                         data-programm="0"
                                         data-points="20000"
                                         >
