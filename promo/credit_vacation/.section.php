@@ -1,3 +1,6 @@
 <?
-$sSectionName="credit_vacation";
+$sSectionName = "credit_vacation";
+$arDirProperties = Array(
+
+);
 ?>
