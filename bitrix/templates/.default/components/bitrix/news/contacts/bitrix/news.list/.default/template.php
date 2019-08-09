@@ -58,7 +58,9 @@ $this->setFrameMode(true);
 								<a href="/">Сайт дилера</a>
 							</div>
 						</div>
-						<div id="map_canvas" class="no-directions"></div>
+						<div id="map_canvas" class="no-directions">
+                            <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Adb1e2254f56728a8fb9906cc844006161e6d90818a4e68173046984e491d2269&amp;width=100%25&amp;height=420&amp;lang=ru_RU&amp;scroll=false"></script>
+                        </div>
 					</div>
 					<div class="dealer__map_results">
 						<h2 class="dealer__map_results__city"><?=$arItem["NAME"]?></h2>
@@ -78,7 +80,7 @@ $this->setFrameMode(true);
 									</div>
 
 									<span class="call-to-dealer">
-										<a class="zingaya_button1370324828422  zing_form_back_tel" for="feedback_home" href="javascript:;">позвонить</a>
+										<a class="zingaya_button1370324828422  zing_form_back_tel" for="feedback_home" href="tel:<?=$arItem['PROPERTIES']['PHONE']['VALUE']?>;">позвонить</a>
 									</span>
 								</div>
 							</div>
@@ -149,9 +151,8 @@ $this->setFrameMode(true);
 		</div>
 	</script>
 
-	<script type="text/javascript" src="http://maps.google.ru/maps/api/js?key=AIzaSyCg3II6UgahN4akFiKCe1Vjrm4wRMBPp8A"></script>
 	<script type="text/javascript" src="/media/js/underscore.js"></script>
-	<script type="text/javascript" src="/contacts/find-dealer.js"></script>
+
 
 
 
