@@ -12,7 +12,7 @@ if(CModule::IncludeModule("iblock")) {
     $el = new CIBlockElement;
     $arLoadProductArray = Array(
         "IBLOCK_SECTION_ID" => false,
-        "IBLOCK_ID" => 72,
+        "IBLOCK_ID" => 70,
         "NAME" => $_GET['name'],
         "ACTIVE" => "N",
         "PREVIEW_TEXT" => $output
