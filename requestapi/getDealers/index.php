@@ -2,24 +2,24 @@
 
 $dealers = [
         [
-            "id" => "249", 
-            "latitude" => "50.617896",
-            "longitude" => "36.606742",
-            "name" => "Ринг Авто Белгород",
-            "address" => "г. Белгород, ул. Студенческая 1 Ш",
-            "phone" => "+7 (4722) 33 33 77",
-            "encode_phone" => "to%3A74722333377%3BtoHash%3A3e854b6c453d5ff626801229cc03a4e986abc103",
-            "email" => "info@hyundai-belgorod.ru",
-            "site" => "http:\/\/hyundai-belgorod.ru\/",
-            "code" => "C40AF01136",
-            "city_id" => "36",
-            "city_name" => "Белгород",
+            "id" => "50",
+            "latitude" => "51.346861",
+            "longitude" => "37.854483",
+            "name" => "Ринг Авто Оскол",
+            "address" => "г. Старый Оскол, Белгородская область, проспект Алексея Угарова, д. 22",
+            "phone" => "+ 7(4725) 46-00-22",
+            "encode_phone" => "to%3A7%3BtoHash%3A1da4c86682e6c16199c8403a76bef19cfa3b9011",
+            "email" => "info@hyundai-oskol.ru",
+            "site" => "http://hyundai-oskol.ru/",
+            "code" => "C40AF01029",
+            "city_id" => "77",
+            "city_name" => "Старый Оскол",
             "special" => "1",
-            "rc_code" => "RC493",
+            "rc_code" => "RC343",
             "wa" => "1",
-            "rating" => "0",
-            "i30n" => "0",
-            "credit_id" => "0"
+            "rating" => "1",
+            "credit_id" => "0",
+            "i30n" => "0"
         ],
 ];
 
