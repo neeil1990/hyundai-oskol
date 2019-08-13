@@ -199,169 +199,36 @@ $APPLICATION->SetTitle("all-offers");
                                 </a>
                             </div>
                         </div>
-							   <div class="col-lg-3 col-md-6 col-sm-12" data-type="1">
-                            <div class="special-item">
-                                <a href="/service/aktsiya-avgusta-vozdukh-na-vysote" class="special-item__link">
-                                    <div class="special-item-label">
-                                        <p class="df-text-input-14px">Сервис</p>
+
+                        <?
+                        if(CModule::IncludeModule("iblock")) {
+                            $arSelect = Array("ID", "IBLOCK_ID", "NAME", "PREVIEW_PICTURE", "DETAIL_PAGE_URL","PROPERTY_SECTION");
+                            $arFilter = Array("IBLOCK_ID" => 73, "ACTIVE" => "Y");
+                            $res = CIBlockElement::GetList(Array(), $arFilter, false, false, $arSelect);
+                            while ($ob = $res->GetNextElement()) {
+                                $arFields = $ob->GetFields();
+                                $arProps = $ob->GetProperties();
+                                    ?>
+                                    <div class="col-lg-3 col-md-6 col-sm-12" data-type="<?=($arProps['SECTION']['VALUE_XML_ID'] == 'null') ? 0 : 1?>">
+                                        <div class="special-item">
+                                            <a href="<?= $arFields['DETAIL_PAGE_URL'] ?>" class="special-item__link">
+                                                <div class="special-item-label">
+                                                    <p class="df-text-input-14px"><?=$arProps['SECTION']['VALUE_ENUM']?></p>
+                                                </div>
+                                                <div class="special-item-img" style="background-image: url(<?= CFile::GetPath($arFields['PREVIEW_PICTURE']); ?>)"></div>
+                                                <div class="special-item-desc">
+                                                    <h4><?=$arFields['NAME']?></h4>
+                                                </div>
+                                            </a>
+                                        </div>
                                     </div>
-                                    <div class="special-item-img" style="background-image: url(/upload/iblock/bad/bade91a222d39b0be1ce5cc53d66bedd.jpg"></div>
-                                    <div class="special-item-desc">
-                                        <h4>Акция Августа! Воздух на высоте!</h4>
-                                    </div>
-                                </a>
-                            </div>
-                        </div>
-							   <div class="col-lg-3 col-md-6 col-sm-12" data-type="1">
-                            <div class="special-item">
-                                <a href="/service/tolko-do-31-avgusta-kupite-zashchitu-kartera-so-skidkoy-10p" class="special-item__link">
-                                    <div class="special-item-label">
-                                        <p class="df-text-input-14px">Сервис</p>
-                                    </div>
-                                    <div class="special-item-img" style="background-image: url(/upload/iblock/282/282942aa550313c5b6b91e6ff660a516.jpg"></div>
-                                    <div class="special-item-desc">
-                                        <h4>Супер предложение от Ринг Авто Оскол! Только до 31 августа, купите  защиту картера со скидкой 10%! </h4>
-                                    </div>
-                                </a>
-                            </div>
-                        </div>
-						    <div class="col-lg-3 col-md-6 col-sm-12" data-type="1">
-                            <div class="special-item">
-                                <a href="/service/speshite-tolko-do-31-avgusta-chistka-toplivnykh-forsunok" class="special-item__link">
-                                    <div class="special-item-label">
-                                        <p class="df-text-input-14px">Сервис</p>
-                                    </div>
-                                    <div class="special-item-img" style="background-image: url(/upload/iblock/55e/55ed0348fc0467fccddc60014837a9de.jpg)"></div>
-                                    <div class="special-item-desc">
-                                        <h4>Спешите! Только до 31 августа чистка топливных форсунок по акции 2  500 рублей</h4>
-                                    </div>
-                                </a>
-                            </div>
-                        </div>
-						   <div class="col-lg-3 col-md-6 col-sm-12" data-type="1">
-                            <div class="special-item">
-                                <a href="/service/zashchitnaya-setka-v-bamper-po-super-tsene" class="special-item__link">
-                                    <div class="special-item-label">
-                                        <p class="df-text-input-14px">Сервис</p>
-                                    </div>
-                                    <div class="special-item-img" style="background-image: url(/upload/iblock/09e/09e9c463887c4ec6bf35bd522f3135ea.png)"></div>
-                                    <div class="special-item-desc">
-                                        <h4>Уникальное предложение для владельцев автомобилей Hyundai! Защитная  сетка в бампер по супер цене!</h4>
-                                    </div>
-                                </a>
-                            </div>
-                        </div>
-                        <!--
-                        <div class="col-lg-3 col-md-6 col-sm-12">
-                          <div class="special-item">
-                            <a href="#" class="special-item__link">
-                              <div class="special-item-label">
-                                <p class="df-text-input-14px">Скидка</p>
-                              </div>
-                              <div class="special-item-img" style="background-image: url(images/special/special2.png)"></div>
-                              <div class="special-item-desc">
-                                <h4>Победная выгода на автомобили Hyundai.</h4>
-                              </div>
-                            </a>
-                          </div>
-                        </div>
-                        <div class="col-lg-3 col-md-6 col-sm-12">
-                          <div class="special-item">
-                            <a href="#" class="special-item__link">
-                              <div class="special-item-label">
-                                <p class="df-text-input-14px">Кредит</p>
-                              </div>
-                              <div class="special-item-img" style="background-image: url(images/special/special3.png)"></div>
-                              <div class="special-item-desc">
-                                <h4>Победная выгода на автомобили Hyundai.</h4>
-                              </div>
-                            </a>
-                          </div>
-                        </div>
-                        <div class="col-lg-3 col-md-6 col-sm-12">
-                          <div class="special-item">
-                            <a href="#" class="special-item__link">
-                              <div class="special-item-label special-item-label--gray">
-                                <p class="df-text-input-14px">Трейд-ин</p>
-                              </div>
-                              <div class="special-item-img" style="background-image: url(images/special/special4.png)"></div>
-                              <div class="special-item-desc">
-                                <h4>Спецпредложение для владельцев Hyundai.</h4>
-                              </div>
-                            </a>
-                          </div>
-                        </div>
-                        <div class="col-lg-3 col-md-6 col-sm-12">
-                          <div class="special-item">
-                            <a href="#" class="special-item__link">
-                              <div class="special-item-label special-item-label--gray">
-                                <p class="df-text-input-14px">Лизинг</p>
-                              </div>
-                              <div class="special-item-img" style="background-image: url(images/special/special5.png)"></div>
-                              <div class="special-item-desc">
-                                <h4>Лизинг для физических лиц.</h4>
-                              </div>
-                            </a>
-                          </div>
-                        </div>
-                        <div class="col-lg-3 col-md-6 col-sm-12">
-                          <div class="special-item">
-                            <a href="#" class="special-item__link">
-                              <div class="special-item-label special-item-label--gray">
-                                <p class="df-text-input-14px">Трейд-ин</p>
-                              </div>
-                              <div class="special-item-img" style="background-image: url(images/special/special6.png)"></div>
-                              <div class="special-item-desc">
-                                <h4>H-Promise. Автомобили с пробегом.</h4>
-                              </div>
-                            </a>
-                          </div>
-                        </div>
-                        <div class="col-lg-3 col-md-6 col-sm-12">
-                          <div class="special-item">
-                            <a href="#" class="special-item__link">
-                              <div class="special-item-label special-item-label--light">
-                                <p class="df-text-input-14px">Сервис</p>
-                              </div>
-                              <div class="special-item-img" style="background-image: url(images/special/special7.png)"></div>
-                              <div class="special-item-desc">
-                                <h4>Бесплатная диагностика + 1 литр масла в подарок.</h4>
-                              </div>
-                            </a>
-                          </div>
-                        </div>
-                        <div class="col-lg-3 col-md-6 col-sm-12">
-                          <div class="special-item">
-                            <a href="#" class="special-item__link">
-                              <div class="special-item-label special-item-label--light">
-                                <p class="df-text-input-14px">Сервис</p>
-                              </div>
-                              <div class="special-item-img" style="background-image: url(images/special/special8.png)"></div>
-                              <div class="special-item-desc">
-                                <h4>Запчасти PL2. Теперь еще дешевле!</h4>
-                              </div>
-                            </a>
-                          </div>
-                        </div>
-                        <div class="col-lg-3 col-md-6 col-sm-12">
-                          <div class="special-item">
-                            <a href="#" class="special-item__link">
-                              <div class="special-item-label special-item-label--light">
-                                <p class="df-text-input-14px">Сервис</p>
-                              </div>
-                              <div class="special-item-img" style="background-image: url(images/special/special9.png)"></div>
-                              <div class="special-item-desc">
-                                <h4>Лучшее для своих.</h4>
-                              </div>
-                            </a>
-                          </div>
-                        </div>
-                -->
+                                    <?
+                            }
+                        }
+                        ?>
                     </div>
                 </div>
             </section>
-
-
         </div>
     </content-data>
 
