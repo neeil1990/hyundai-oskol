@@ -462,7 +462,7 @@ $APPLICATION->SetTitle("Оригинальные запасные части");
                                     <img src="/images/service/bodyworks/fix.svg" alt="" class="service__img">
                                     <div class="service-block">
                                         <h3 class="service-title">Записаться на сервис?</h3>
-                                        <p class="service-text">Обратитесь к&nbsp;ближайшему официальному дилеру Hyundai или позвоните в&nbsp;службу поддержки клиентов <a href="tel:+7 4722 33-33-77" class="df-link">+7 4722 33-33-77</a></p>
+                                        <p class="service-text">Обратитесь к&nbsp;ближайшему официальному дилеру Hyundai или позвоните в&nbsp;службу поддержки клиентов <a href="tel:+74725460022" class="df-link">+7 4725 46-00-22</a></p>
                                     </div>
                                 </div>
                                 <a href="/service-request" class="df-button">Записаться</a>

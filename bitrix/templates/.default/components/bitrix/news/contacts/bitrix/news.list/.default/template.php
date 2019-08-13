@@ -59,7 +59,7 @@ $this->setFrameMode(true);
 							</div>
 						</div>
 						<div id="map_canvas" class="no-directions">
-                            <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Adb1e2254f56728a8fb9906cc844006161e6d90818a4e68173046984e491d2269&amp;width=100%25&amp;height=420&amp;lang=ru_RU&amp;scroll=false"></script>
+                            <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Aa160d5c3ee41abe7e3eca10522afb142b1f56f60d5dd7b649da62338ce421f37&amp;width=100%25&amp;height=420&amp;lang=ru_RU&amp;scroll=false"></script>
                         </div>
 					</div>
 					<div class="dealer__map_results">

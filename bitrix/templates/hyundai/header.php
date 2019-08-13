@@ -122,13 +122,13 @@
         <div class="support-service">
             <a class="support-service__link js-open-support-service__dropdown" href="#" role="button">
                 <div class="support-service__text">Служба клиентской поддержки</div>
-                <div class="support-service__phone">+7 4722 33-33-77</div>
+                <div class="support-service__phone">+7 4725 46-00-22</div>
                 <svg role="img" aria-hidden="true" class="support-service__arrow">
                     <use xlink:href="#icon-Arrow_Dropdown"></use>
                 </svg>
             </a>
             <div class="support-service__dropdown">
-                <a class="support-service__dd-phone" href="tel:+74722333377">+7 4722 33-33-77</a>
+                <a class="support-service__dd-phone" href="tel:+74725460022">+7 4725 46-00-22</a>
                 <hr>
                 <a class="support-service__dd-mail" href="/contacts/">
                     <svg role="img" aria-hidden="true">

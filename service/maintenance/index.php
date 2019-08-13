@@ -241,7 +241,7 @@ $APPLICATION->SetTitle("Обслуживание");
                                     <div class="sign-up-service__text">
                                         <h3 class="sign-up-service__title">Записаться на сервис?</h3>
                                         <div class="sign-up-service__description df-text-main-16px">
-                                            Обратитесь к ближайшему официальному дилеру Hyundai или позвоните в службу поддержки клиентов <a href="tel:+74722333377">+7 4722 33-33-77</a>
+                                            Обратитесь к ближайшему официальному дилеру Hyundai или позвоните в службу поддержки клиентов <a href="tel:+74725460022">+7 4725 46-00-22</a>
                                         </div>
                                     </div>
                                     <div class="sign-up-service__buttons">
