@@ -203,7 +203,7 @@ $APPLICATION->SetTitle("all-offers");
                         <?
                         if(CModule::IncludeModule("iblock")) {
                             $arSelect = Array("ID", "IBLOCK_ID", "NAME", "PREVIEW_PICTURE", "DETAIL_PAGE_URL","PROPERTY_SECTION");
-                            $arFilter = Array("IBLOCK_ID" => 73, "ACTIVE" => "Y");
+                            $arFilter = Array("IBLOCK_ID" => 71, "ACTIVE" => "Y");
                             $res = CIBlockElement::GetList(Array(), $arFilter, false, false, $arSelect);
                             while ($ob = $res->GetNextElement()) {
                                 $arFields = $ob->GetFields();

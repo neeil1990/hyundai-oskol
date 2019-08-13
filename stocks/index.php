@@ -38,7 +38,7 @@ $APPLICATION->SetTitle("stocks");
 		"DISPLAY_TOP_PAGER" => "N",	// Выводить над списком
 		"FILE_404" => "",	// Страница для показа (по умолчанию /404.php)
 		"HIDE_LINK_WHEN_NO_DETAIL" => "N",	// Скрывать ссылку, если нет детального описания
-		"IBLOCK_ID" => "73",	// Инфоблок
+		"IBLOCK_ID" => "71",	// Инфоблок
 		"IBLOCK_TYPE" => "news",	// Тип инфоблока
 		"INCLUDE_IBLOCK_INTO_CHAIN" => "Y",	// Включать инфоблок в цепочку навигации
 		"LIST_ACTIVE_DATE_FORMAT" => "d.m.Y",	// Формат показа даты
