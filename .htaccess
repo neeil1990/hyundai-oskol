@@ -47,6 +47,7 @@ Redirect 301 /company/management.php /
 Redirect 301 /company/mission.php /
 Redirect 301 /company/history.php /
 Redirect 301 /company/vacancies.php /
+Redirect 301 /find-dealer /contacts/
 
 
 
