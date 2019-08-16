@@ -23,7 +23,7 @@ $APPLICATION->SetTitle("Уникальный SOLARIS Super Series");
                                     <p class="offer-terms__text">Уникальный набор опций по привлекательной цене и выгодное финансовое предложение «Кредитные каникулы» - стартуй в лето! Торопитесь, количество автомобилей ограничено.</p>
 
                                     <p class="offer-terms__text">При покупке Solaris Super Series по программе СТАРТ вам доступна невероятная опция – Кредитные каникулы без выплат на 3 месяца в подарок! Вы просто забираете автомобиль, оформив его по программе СТАРТ на 36 месяцев, и наслаждаетесь беззаботным летним отдыхом. Выплаты начинаются только через 3 месяца, при чем вам остается вносить платежи оставшиеся 33 месяца – обратный отсчет по программе начинается с первого дня!</p>
-                                    <p class="offer-terms__text">Подробности уточняйте в <a href="/find-dealer" target="_blank">официальных дилерских центрах Hyundai.</a></p>
+                                    <p class="offer-terms__text">Подробности уточняйте в <a href="/test-drive/" target="_blank">официальных дилерских центрах Hyundai.</a></p>
 
                                 </div>
                                 <div class="mlr" id="offerPage">
@@ -152,7 +152,9 @@ $APPLICATION->SetTitle("Уникальный SOLARIS Super Series");
                             <div class="offers-block">
                                 <br><br>
                                 <div class="mlr">
-                                    <a href="/configurator/car/23" target="_blank" class="request-service-btn">Конфигуратор</a>   <a href="/test-drive/Solaris" target="_blank" class="inverse-service-btn">Тест-драйв</a>   <a href="/configurator/car/23#calculator" target="_blank" class="inverse-service-btn">Цены и сравнение</a>
+                                    <a href="/configurator/car/23" target="_blank" class="request-service-btn">Конфигуратор</a>
+                                    <a href="/test-drive/" target="_blank" class="inverse-service-btn">Тест-драйв</a>
+                                    <a href="/configurator/car/23#calculator" target="_blank" class="inverse-service-btn">Цены и сравнение</a>
                                 </div>
 
 
