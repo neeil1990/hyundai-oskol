@@ -436,7 +436,7 @@
                                     </div>
                                 </li>
                                 <li class="main-nav__item">
-                                    <a href="https://hpromise.hyundai.ru/" target="_blank" class="main-nav__link">
+                                    <a href="/hpromise/" target="_blank" class="main-nav__link">
                                         С пробегом
                                     </a>
                                 </li>

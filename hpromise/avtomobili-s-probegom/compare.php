@@ -1,13 +1,6 @@
 <?
-require($_SERVER["DOCUMENT_ROOT"]."/bitrix/modules/main/include/prolog_before.php");
-?>
-
-<?
-$APPLICATION->IncludeFile("/hpromise/header.php", Array(), Array(
-    "MODE"      => "php",
-    "NAME"      => "Редактирование включаемой области раздела",
-    "TEMPLATE"  => ""
-));
+require($_SERVER["DOCUMENT_ROOT"]."/bitrix/header.php");
+$APPLICATION->SetPageProperty("title", "");
 ?>
 
 <?
@@ -38,7 +31,7 @@ if($_REQUEST['action'] == 'DELETE_FROM_COMPARE_LIST'){
 		"ELEMENT_SORT_ORDER_BOX2" => "desc",
 		"FIELD_CODE" => array(
 		),
-		"IBLOCK_ID" => "37",
+		"IBLOCK_ID" => "58",
 		"IBLOCK_TYPE" => "products",
 		"NAME" => "CATALOG_COMPARE_LIST",
 		"PRICE_CODE" => array(
@@ -103,10 +96,5 @@ if($_REQUEST['action'] == 'DELETE_FROM_COMPARE_LIST'){
 	false
 );?>
 
-<?
-$APPLICATION->IncludeFile("/hpromise/footer.php", Array(), Array(
-    "MODE"      => "html",
-    "NAME"      => "Редактирование включаемой области раздела",
-    "TEMPLATE"  => ""
-));
-?>
+
+<?require($_SERVER["DOCUMENT_ROOT"]."/bitrix/footer.php");?>
