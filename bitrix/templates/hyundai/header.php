@@ -150,11 +150,9 @@
                         Тест-драйв
                     </a>
                 </li>
-                <li class="header-top__item header-top__item--search js-search">
-                    <a href="#" class="header-top__link">
-                        <svg role="img" aria-hidden="true" class="icon-magnifier">
-                            <use xlink:href="#icon-search"></use>
-                        </svg>
+                <li class="header-top__item">
+                    <a href="/contacts/" class="header-top__link">
+                        Контакты
                     </a>
                 </li>
             </ul>
@@ -231,7 +229,7 @@
                                                                             </div>
                                                                         </a>
                                                                     </li>
-                                                                    <li class="showroom__car showroom__car">
+                                                                   <!-- <li class="showroom__car showroom__car">
                                                                         <a href="/i30N" class="d-car" aria-label="I30N">
                                                                             <div class="d-car__top-line">
                                                                                 <h5 class="d-car__title">i30 N</h5>
@@ -243,7 +241,7 @@
                                                                                 <img class="showroom-lazyload" data-showroomsrc="/storage/cars/1561041440.png" alt="i30N">
                                                                             </div>
                                                                         </a>
-                                                                    </li>
+                                                                    </li>-->
                                                                 </ul>
                                                             </li>
                                                             <li class="showroom__line">

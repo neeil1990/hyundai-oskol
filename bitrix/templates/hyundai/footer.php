@@ -965,13 +965,20 @@
 <script type="text/javascript">
   swQ(document).ready(function(){
     swQ().SW({
-      swKey: '1a059f0c8a0f2ae9616554b2fe72b8c8',
-      swDomainKey: '35eca4871149551c4374d16cb8632159'
+      swKey: '96a4007ee37fba6acb09f3c06ad7e02e',
+      swDomainKey: '1dadcf943a2ce536d96fc0651d28da49'
     });
     swQ('body').SW('load');
   });
 </script>
 <!-- /StreamWood code -->
+
+<!-- Yandex.Metrika counter --> 
+<script type="text/javascript" > 
+	(function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)}; m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)}) (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym"); ym(42192359, "init", { clickmap:true, trackLinks:true, accurateTrackBounce:true, trackHash:true, ecommerce:"dataLayer" }); 
+</script> 
+<!-- /Yandex.Metrika counter -->
+
 
 <!-- Yandex.Metrika counter -->
 <script type="text/javascript" >
@@ -987,6 +994,8 @@
 </script>
 <noscript><div><img src="https://mc.yandex.ru/watch/49096957" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
 <!-- /Yandex.Metrika counter -->
+
+<script id="wJumpToCars" src="https://cars.hyundai-oskol.ru/widgets/jumpToCars.js"></script> 
 
 </body>
 </html>
