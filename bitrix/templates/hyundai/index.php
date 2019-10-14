@@ -1,5 +1,3 @@
-
-
 <content-data>
     <div class="content">
         <section class="slider lazyload lazypreview" data-bgset="/images/index/fon.jpg">
@@ -27,7 +25,29 @@
                                     </div>
                                 </a>
                             </div>
-                            <li class="slider__item lazyload lazypreview" data-bgset="/storage/banners/1564410489_mob.jpg [(max-width: 640px)] | /storage/banners/1564410489.jpg">
+							<li class="slider__item lazyload lazypreview" data-bgset="/storage/banners/1569999101_mob.jpg [(max-width: 640px)] | /storage/banners/1569999101.jpg">
+                                <a class="slider__link" href="/promo/suv-rock"  aria-label="TUCSON и SANTA FE Rock Edition.">
+                                    <div class="slider__inner">
+                                        <h2 class="slider__title">TUCSON и SANTA FE Rock Edition.</h2>
+                                        <div class="slider__subtitle df-banner-subline">В моторах - чистый рок.</div>
+                                    </div>
+                                    <div class="blue-panel">
+                                        <div class="blue-panel__inner">
+                                            <div class="blue-panel__more">
+                                                Подробнее
+                                                <svg>
+                                                    <use xlink:href="#arrow-link"></use>
+                                                </svg>
+                                            </div>
+
+
+
+
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <!--<li class="slider__item lazyload lazypreview" data-bgset="/storage/banners/1564410489_mob.jpg [(max-width: 640px)] | /storage/banners/1564410489.jpg">
                                 <a class="slider__link" href="/promo/cska_sponsorship"  aria-label="Фанпарк Hyundai на ВЭБ Арене">
                                     <div class="slider__inner">
                                         <h2 class="slider__title">Фанпарк Hyundai на ВЭБ Арене</h2>
@@ -79,7 +99,33 @@
                                         </div>
                                     </div>
                                 </a>
+                            </li> -->
+							
+							
+							 <li class="slider__item lazyload lazypreview" data-bgset="/storage/banners/gonka-i30_mob.jpg [(max-width: 640px)] | /storage/banners/gonka-i30.jpg">
+                                <a class="slider__link" href="https://race.hyundai.ru/?_ga=2.238198336.197582221.1569225720-96980108.1555415333&_gac=1.223787497.1565685318.Cj0KCQjwv8nqBRDGARIsAHfR9wCu_mSOgM5UGtdb7il3wX1SreJLmqSRXU6nw5pISnhd2WxkGjjC0vAaAqusEALw_wcB"  aria-label="Участвуйте в виртуальной гонке на i30N.">
+                                    <div class="slider__inner">
+                                        <h2 class="slider__title">Участвуйте в виртуальной гонке на i30N.</h2>
+                                        <div class="slider__subtitle df-banner-subline">Выиграйте виртуальную топливную карту</div>
+                                    </div>
+                                    <div class="blue-panel">
+                                        <div class="blue-panel__inner">
+                                            <div>
+                                                Поехали
+                                            </div>
+
+                                         
+                                        
+
+
+                                        </div>
+                                    </div>
+                                </a>
                             </li>
+							
+					
+							
+							
                             <li class="slider__item lazyload lazypreview" data-bgset="/storage/banners/1568289623_mob.jpg [(max-width: 640px)] | /storage/banners/1568289623.jpg">
                                 <a class="slider__link" href="/promo/trade-in-sale/"  aria-label="Невероятный Hyundai i30 N.">
                                     <div class="slider__inner">
@@ -108,16 +154,16 @@
                                     </div>
                                 </a>
                             </li>
-                            <li class="slider__item lazyload lazypreview" data-bgset="/storage/banners/1569999101_mob.jpg [(max-width: 640px)] | /storage/banners/1569999101.jpg">
-                                <a class="slider__link" href="/promo/suv-rock"  aria-label="TUCSON и SANTA FE Rock Edition.">
+                                  <!--<li class="slider__item lazyload lazypreview" data-bgset="/storage/banners/1564401213_mob.jpg [(max-width: 640px)] | /storage/banners/1564401213.jpg">
+                                <a class="slider__link" href="/i30N"  aria-label="">
                                     <div class="slider__inner">
-                                        <h2 class="slider__title">TUCSON и SANTA FE Rock Edition.</h2>
-                                        <div class="slider__subtitle df-banner-subline">В моторах - чистый рок.</div>
+                                        <h2 class="slider__title"></h2>
+                                        <div class="slider__subtitle df-banner-subline"></div>
                                     </div>
                                     <div class="blue-panel">
                                         <div class="blue-panel__inner">
                                             <div class="blue-panel__more">
-                                                Подробнее
+                                                Испытай!
                                                 <svg>
                                                     <use xlink:href="#arrow-link"></use>
                                                 </svg>
@@ -129,7 +175,7 @@
                                         </div>
                                     </div>
                                 </a>
-                            </li>
+                            </li>-->
                             <li class="slider__item lazyload lazypreview" data-bgset="/storage/banners/1562082212_mob.jpg [(max-width: 640px)] | /storage/banners/1562082212.jpg">
                                 <a class="slider__link" href="/promo/solaris_super_series"  aria-label="SOLARIS Super Series">
                                     <div class="slider__inner">
@@ -152,84 +198,9 @@
                                     </div>
                                 </a>
                             </li>
-                            <li class="slider__item lazyload lazypreview" data-bgset="/storage/banners/1564401213_mob.jpg [(max-width: 640px)] | /storage/banners/1564401213.jpg">
-                                <a class="slider__link" href="/i30N"  aria-label="">
-                                    <div class="slider__inner">
-                                        <h2 class="slider__title"></h2>
-                                        <div class="slider__subtitle df-banner-subline"></div>
-                                    </div>
-                                    <div class="blue-panel">
-                                        <div class="blue-panel__inner">
-                                            <div class="blue-panel__more">
-                                                Испытай!
-                                                <svg>
-                                                    <use xlink:href="#arrow-link"></use>
-                                                </svg>
-                                            </div>
-
-
-
-
-                                        </div>
-                                    </div>
-                                </a>
-                            </li>
-                            <li class="slider__item lazyload lazypreview" data-bgset="/storage/banners/1564155133_mob.jpg [(max-width: 640px)] | /storage/banners/1564502688.jpg">
-                                <a class="slider__link" href="/promo/new_owners"  aria-label="10:0 в вашу пользу">
-                                    <div class="slider__inner">
-                                        <h2 class="slider__title" style="color: #000;">10:0 в вашу пользу</h2>
-                                        <div class="slider__subtitle df-banner-subline" style="color: #000;"></div>
-                                    </div>
-                                    <div class="blue-panel">
-                                        <div class="blue-panel__inner">
-                                            <div>
-                                                Выгода 10%
-                                            </div>
-
-                                            <div>
-                                                на  CRETA и SOLARIS
-                                            </div>
-
-                                            <div class="blue-panel__more">
-                                                Подробнее
-                                                <svg>
-                                                    <use xlink:href="#arrow-link"></use>
-                                                </svg>
-                                            </div>
-
-
-                                        </div>
-                                    </div>
-                                </a>
-                            </li>
-                            <li class="slider__item lazyload lazypreview" data-bgset="/storage/banners/1564407017_mob.jpg [(max-width: 640px)] | /storage/banners/1564502702.jpg">
-                                <a class="slider__link" href="/promo/family_car"  aria-label="10:0 в вашу пользу">
-                                    <div class="slider__inner">
-                                        <h2 class="slider__title" style="color: #000;">10:0 в вашу пользу</h2>
-                                        <div class="slider__subtitle df-banner-subline" style="color: #000;"></div>
-                                    </div>
-                                    <div class="blue-panel">
-                                        <div class="blue-panel__inner">
-                                            <div>
-                                                Выгода 10%
-                                            </div>
-
-                                            <div>
-                                                на  CRETA и SOLARIS
-                                            </div>
-
-                                            <div class="blue-panel__more">
-                                                Подробнее
-                                                <svg>
-                                                    <use xlink:href="#arrow-link"></use>
-                                                </svg>
-                                            </div>
-
-
-                                        </div>
-                                    </div>
-                                </a>
-                            </li>
+                      
+                           
+                           
                             <li class="slider__item lazyload lazypreview" data-bgset="/storage/banners/1562082130_mob.jpg [(max-width: 640px)] | /storage/banners/1562082130.jpg">
                                 <a class="slider__link" href="/NewElantra"  aria-label="Новая ELANTRA.">
                                     <div class="slider__inner">
