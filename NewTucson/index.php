@@ -64,11 +64,11 @@ $APPLICATION->SetTitle("Новый TUCSON.");
                 </div>
                 <div class="blue-label">
                     <div class="blue-label__top">
-                        <span>от</span> <span id="price-from"></span> &#8381;
+                        <span>от</span> 1 499 000<span id="price-from"></span> &#8381;
                     </div>
                     <hr>
                     <div class="blue-label__bottom">
-                        В кредит — от <span id="credit-from"></span> ₽/мес
+                        В кредит — от <span id="credit-from">10 000</span> ₽/мес
                     </div>
                 </div>
                 <a href="#view360" class="js-next-slide banner__circle scroll"></a>
