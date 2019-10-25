@@ -21,6 +21,7 @@
     <? if($APPLICATION->GetCurDir() == "/"): ?>
     <link rel="stylesheet" href="<?=SITE_TEMPLATE_PATH?>/css/index/libs.css?id=f5f774e5913cde9ada59">
     <link rel="stylesheet" href="<?=SITE_TEMPLATE_PATH?>/css/index/index.css?id=84be1cfbb27517e3726d">
+    <link rel="stylesheet" href="<?=SITE_TEMPLATE_PATH?>/css/index/custom.css">
     <?else:?>
         <?
             $css = $_SERVER["DOCUMENT_ROOT"].$APPLICATION->GetCurDir()."/css.php";
