@@ -1,8 +1,8 @@
 <?
 require($_SERVER["DOCUMENT_ROOT"]."/bitrix/header.php");
+$APPLICATION->SetTitle("");
 $APPLICATION->SetPageProperty("title", "");
 ?>
-
     <div class="cont">
         <div class="banner nblock">
             <div class="banner-title">HYUNDAI<br>TRADE-IN</div>
@@ -80,12 +80,12 @@ $APPLICATION->SetPageProperty("title", "");
                         <a href="/NewSantaFe" class="carslider-inner-single-desc-link">описание модели</a>
 
                         <div class="carslider-inner-single-desc-tit">Выгода</div>
-                        <div class="carslider-inner-single-desc-price">160 000 &#8381;</div>
+                        <div class="carslider-inner-single-desc-price">160 000 ₽</div>
                         <div class="carslider-inner-single-desc-tit carslider-inner-single-or">ИЛИ</div>
 
 
                         <div class="carslider-inner-single-desc-tit mobile_hidden">Выгода<span class="hide"> при покупке<br/>по финансовой программе<br/><a href="/start" target="_blank">СТАРТ</a> или <a href="/start_plus" target="_blank">СТАРТ Плюс</a></span></div>
-                        <div class="carslider-inner-single-desc-price mobile_hidden">215 000 &#8381;</div>
+                        <div class="carslider-inner-single-desc-price mobile_hidden">215 000 ₽</div>
 
                     </div>
                     <div class="carslider-inner-single-img">
@@ -104,12 +104,12 @@ $APPLICATION->SetPageProperty("title", "");
                         <a href="http://sonata.hyundai.ru/" class="carslider-inner-single-desc-link">описание модели</a>
 
                         <div class="carslider-inner-single-desc-tit">Выгода</div>
-                        <div class="carslider-inner-single-desc-price">140 000 &#8381;</div>
+                        <div class="carslider-inner-single-desc-price">80 000 ₽</div>
                         <div class="carslider-inner-single-desc-tit carslider-inner-single-or">ИЛИ</div>
 
 
                         <div class="carslider-inner-single-desc-tit mobile_hidden">Выгода<span class="hide"> при покупке<br/>по финансовой программе<br/><a href="/start" target="_blank">СТАРТ</a> или <a href="/start_plus" target="_blank">СТАРТ Плюс</a></span></div>
-                        <div class="carslider-inner-single-desc-price mobile_hidden">180 000 &#8381;</div>
+                        <div class="carslider-inner-single-desc-price mobile_hidden">180 000 ₽</div>
 
                     </div>
                     <div class="carslider-inner-single-img">
@@ -128,12 +128,12 @@ $APPLICATION->SetPageProperty("title", "");
                         <a href="/NewSolaris" class="carslider-inner-single-desc-link">описание модели</a>
 
                         <div class="carslider-inner-single-desc-tit">Выгода</div>
-                        <div class="carslider-inner-single-desc-price">50 000 &#8381;</div>
+                        <div class="carslider-inner-single-desc-price">50 000 ₽</div>
                         <div class="carslider-inner-single-desc-tit carslider-inner-single-or">ИЛИ</div>
 
 
                         <div class="carslider-inner-single-desc-tit mobile_hidden">Выгода<span class="hide"> при покупке<br/>по финансовой программе<br/><a href="/start" target="_blank">СТАРТ</a> или <a href="/start_plus" target="_blank">СТАРТ Плюс</a></span></div>
-                        <div class="carslider-inner-single-desc-price mobile_hidden">85 000 &#8381;</div>
+                        <div class="carslider-inner-single-desc-price mobile_hidden">85 000 ₽</div>
 
                     </div>
                     <div class="carslider-inner-single-img">
@@ -152,12 +152,12 @@ $APPLICATION->SetPageProperty("title", "");
                         <a href="/Creta" class="carslider-inner-single-desc-link">описание модели</a>
 
                         <div class="carslider-inner-single-desc-tit">Выгода</div>
-                        <div class="carslider-inner-single-desc-price">60 000 &#8381;</div>
+                        <div class="carslider-inner-single-desc-price">60 000 ₽</div>
                         <div class="carslider-inner-single-desc-tit carslider-inner-single-or">ИЛИ</div>
 
 
                         <div class="carslider-inner-single-desc-tit mobile_hidden">Выгода<span class="hide"> при покупке<br/>по финансовой программе<br/><a href="/start" target="_blank">СТАРТ</a> или <a href="/start_plus" target="_blank">СТАРТ Плюс</a></span></div>
-                        <div class="carslider-inner-single-desc-price mobile_hidden">75 000 &#8381;</div>
+                        <div class="carslider-inner-single-desc-price mobile_hidden">75 000 ₽</div>
 
                     </div>
                     <div class="carslider-inner-single-img">
@@ -176,12 +176,12 @@ $APPLICATION->SetPageProperty("title", "");
                         <a href="/Elantra" class="carslider-inner-single-desc-link">описание модели</a>
 
                         <div class="carslider-inner-single-desc-tit">Выгода</div>
-                        <div class="carslider-inner-single-desc-price">50 000 &#8381;</div>
+                        <div class="carslider-inner-single-desc-price">30 000 ₽</div>
                         <div class="carslider-inner-single-desc-tit carslider-inner-single-or">ИЛИ</div>
 
 
                         <div class="carslider-inner-single-desc-tit mobile_hidden">Выгода<span class="hide"> при покупке<br/>по финансовой программе<br/><a href="/start" target="_blank">СТАРТ</a> или <a href="/start_plus" target="_blank">СТАРТ Плюс</a></span></div>
-                        <div class="carslider-inner-single-desc-price mobile_hidden">95 000 &#8381;</div>
+                        <div class="carslider-inner-single-desc-price mobile_hidden">95 000 ₽</div>
 
                     </div>
                     <div class="carslider-inner-single-img">
@@ -200,12 +200,12 @@ $APPLICATION->SetPageProperty("title", "");
                         <a href="/Tucson" class="carslider-inner-single-desc-link">описание модели</a>
 
                         <div class="carslider-inner-single-desc-tit">Выгода</div>
-                        <div class="carslider-inner-single-desc-price">110 000 &#8381;</div>
+                        <div class="carslider-inner-single-desc-price">110 000 ₽</div>
                         <div class="carslider-inner-single-desc-tit carslider-inner-single-or">ИЛИ</div>
 
 
                         <div class="carslider-inner-single-desc-tit mobile_hidden">Выгода<span class="hide"> при покупке<br/>по финансовой программе<br/><a href="/start" target="_blank">СТАРТ</a> или <a href="/start_plus" target="_blank">СТАРТ Плюс</a></span></div>
-                        <div class="carslider-inner-single-desc-price mobile_hidden">155 000 &#8381;</div>
+                        <div class="carslider-inner-single-desc-price mobile_hidden">155 000 ₽</div>
 
                     </div>
                     <div class="carslider-inner-single-img">
