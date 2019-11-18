@@ -35,6 +35,29 @@
                                     </div>
                                 </a>
                             </li>
+                            <li class="slider__item lazyload lazypreview" data-bgset="/storage/banners/1573563508_mob.jpg [(max-width: 640px)] | /storage/banners/1573547214.jpg">
+                                <a class="slider__link" href="promo/suv-winter2020"  aria-label="Кроссоверы Hyundai.">
+                                    <div class="slider__inner">
+                                        <h2 class="slider__title">Кроссоверы Hyundai.</h2>
+                                        <div class="slider__subtitle df-banner-subline">С тобой заодно.</div>
+                                    </div>
+                                    <div class="blue-panel">
+                                        <div class="blue-panel__inner">
+                                            <div class="blue-panel__more">
+                                                Подробнее
+                                                <svg>
+                                                    <use xlink:href="#arrow-link"></use>
+                                                </svg>
+                                            </div>
+
+
+
+
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+
                             <!--<li class="slider__item lazyload lazypreview" data-bgset="/storage/banners/1564410489_mob.jpg [(max-width: 640px)] | /storage/banners/1564410489.jpg">
                                 <a class="slider__link" href="/promo/cska_sponsorship"  aria-label="Фанпарк Hyundai на ВЭБ Арене">
                                     <div class="slider__inner">
