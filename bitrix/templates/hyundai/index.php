@@ -5,37 +5,33 @@
                 <div class="row">
                     <div class="col-md-12">
                         <ul class="slider__body js-main-slider owl-carousel">
-                            <li class="slider__item lazyload lazypreview" data-bgset="/storage/banners/1568186050_mob.jpg [(max-width: 640px)] | /storage/banners/1568184493.jpg">
-                                <a class="slider__link" href="/promo/creta-rock/"  aria-label="CRETA Rock Edition.">
-                                    <div class="slider__inner">
-                                        <h2 class="slider__title">CRETA Rock Edition.</h2>
-                                        <div class="slider__subtitle df-banner-subline">В моторах – чистый рок.</div>
-                                    </div>
-                                </a>
-                            </li>
-							<li class="slider__item lazyload lazypreview" data-bgset="/storage/banners/1570620170_mob.jpg [(max-width: 640px)] | /storage/banners/1569999101.jpg">
-                                <a class="slider__link" href="/promo/suv-rock"  aria-label="TUCSON и SANTA FE Rock Edition.">
-                                    <div class="slider__inner">
-                                        <h2 class="slider__title">TUCSON и SANTA FE Rock Edition.</h2>
-                                        <div class="slider__subtitle df-banner-subline">В моторах - чистый рок.</div>
-                                    </div>
+						
+						
+							 <li class="slider__item lazyload lazypreview" data-bgset="/storage/banners/1569994678_mob.jpg [(max-width: 640px)] | /storage/banners/1569994678.jpg">
+                                <a class="slider__link" href="https://mobility.hyundai.ru/tariffs/?utm_medium=referral&utm_source=hyundai.ru&utm_campaign=main_banner&_ga=2.67679641.945624496.1574067259-96980108.1555415333"  aria-label="Hyundai Mobility.">
+                             
                                     <div class="blue-panel">
                                         <div class="blue-panel__inner">
+                                            <div>
+                                               Подробности                                               </div>
+
+                                            <div>
+                                              Цены                                              </div>
+
                                             <div class="blue-panel__more">
-                                                Подробнее
+                                                Перейти
                                                 <svg>
                                                     <use xlink:href="#arrow-link"></use>
                                                 </svg>
                                             </div>
 
 
-
-
                                         </div>
                                     </div>
                                 </a>
                             </li>
-                            <li class="slider__item lazyload lazypreview" data-bgset="/storage/banners/1573563508_mob.jpg [(max-width: 640px)] | /storage/banners/1573547214.jpg">
+						
+						    <li class="slider__item lazyload lazypreview" data-bgset="/storage/banners/1573563508_mob.jpg [(max-width: 640px)] | /storage/banners/1573547214.jpg">
                                 <a class="slider__link" href="promo/suv-winter2020"  aria-label="Кроссоверы Hyundai.">
                                     <div class="slider__inner">
                                         <h2 class="slider__title">Кроссоверы Hyundai.</h2>
@@ -57,6 +53,53 @@
                                     </div>
                                 </a>
                             </li>
+						
+						
+                            <li class="slider__item lazyload lazypreview" data-bgset="/storage/banners/1568186050_mob.jpg [(max-width: 640px)] | /storage/banners/1568184493.jpg">
+                                <a class="slider__link" href="/promo/creta-rock/"  aria-label="CRETA Rock Edition.">
+                                    <div class="slider__inner">
+                                        <h2 class="slider__title">CRETA Rock Edition.</h2>
+                                        <div class="slider__subtitle df-banner-subline">В моторах – чистый рок.</div>
+                                    </div>
+									      <div class="blue-panel">
+                                        <div class="blue-panel__inner">
+                                            <div class="blue-panel__more">
+                                                Подробнее
+                                                <svg>
+                                                    <use xlink:href="#arrow-link"></use>
+                                                </svg>
+                                            </div>
+
+
+
+
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+							<li class="slider__item lazyload lazypreview" data-bgset="/storage/banners/11570620170_mob.jpg [(max-width: 640px)] | /storage/banners/11570620012.jpg">
+                                <a class="slider__link" href="/promo/suv-rock"  aria-label="TUCSON и SANTA FE Rock Edition.">
+                                    <div class="slider__inner">
+                                        <h2 class="slider__title">TUCSON и SANTA FE Rock Edition.</h2>
+                                        <div class="slider__subtitle df-banner-subline">В моторах - чистый рок.</div>
+                                    </div>
+                                    <div class="blue-panel">
+                                        <div class="blue-panel__inner">
+                                            <div class="blue-panel__more">
+                                                Подробнее
+                                                <svg>
+                                                    <use xlink:href="#arrow-link"></use>
+                                                </svg>
+                                            </div>
+
+
+
+
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                        
 
                             <!--<li class="slider__item lazyload lazypreview" data-bgset="/storage/banners/1564410489_mob.jpg [(max-width: 640px)] | /storage/banners/1564410489.jpg">
                                 <a class="slider__link" href="/promo/cska_sponsorship"  aria-label="Фанпарк Hyundai на ВЭБ Арене">
