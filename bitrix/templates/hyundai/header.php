@@ -17,11 +17,11 @@
 
     <link rel="stylesheet" href="<?=SITE_TEMPLATE_PATH?>/css/libs.css?id=2b939cb1312e066fe2c0">
     <link rel="stylesheet" href="<?=SITE_TEMPLATE_PATH?>/css/master.css?id=ba29d4bc23f02da318c0">
+    <link rel="stylesheet" href="<?=SITE_TEMPLATE_PATH?>/css/custom.css">
 
     <? if($APPLICATION->GetCurDir() == "/"): ?>
     <link rel="stylesheet" href="<?=SITE_TEMPLATE_PATH?>/css/index/libs.css?id=f5f774e5913cde9ada59">
     <link rel="stylesheet" href="<?=SITE_TEMPLATE_PATH?>/css/index/index.css?id=84be1cfbb27517e3726d">
-    <link rel="stylesheet" href="<?=SITE_TEMPLATE_PATH?>/css/index/custom.css">
     <?else:?>
         <?
             $css = $_SERVER["DOCUMENT_ROOT"].$APPLICATION->GetCurDir()."/css.php";
@@ -227,6 +227,19 @@
                                                                             <div class="d-car__m-name">СУПЕР СЕРИЯ</div>
                                                                             <div class="d-car__img">
                                                                                 <img class="showroom-lazyload" data-showroomsrc="/assets/ss/ss_pic.png" alt="СУПЕР СЕРИЯ">
+                                                                            </div>
+                                                                        </a>
+                                                                    </li>
+                                                                    <li class="showroom__car showroom__car">
+                                                                        <a href="/NewSonata" class="d-car" aria-label="NEWSONATA">
+                                                                            <div class="d-car__top-line">
+                                                                                <h5 class="d-car__title">Новая СОНАТА</h5>
+                                                                                <div class="d-car__name">/ SONATA</div>
+                                                                            </div>
+                                                                            <div class="d-car__price">от 1 725 000 ₽</div>
+                                                                            <div class="d-car__m-name">SONATA</div>
+                                                                            <div class="d-car__img">
+                                                                                <img class="showroom-lazyload" data-showroomsrc="/storage/cars/1574242069.png" alt="Новая SONATA">
                                                                             </div>
                                                                         </a>
                                                                     </li>
