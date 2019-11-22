@@ -82,6 +82,19 @@ $APPLICATION->SetTitle("all-offers");
                                 </a>
                             </div>
                         </div>
+								  <div class="col-lg-3 col-md-6 col-sm-12" data-type="0">
+                            <div class="special-item">
+                                <a href="/promo/start/" class="special-item__link">
+                                    <div class="special-item-label">
+                                        <p class="df-text-input-14px">Покупателям</p>
+                                    </div>
+                                    <div class="special-item-img" style="background-image: url(/storage/special_offers/preview_1573049331.jpg)"></div>
+                                    <div class="special-item-desc">
+                                        <h4>Финансовая программа Старт. Гибкие условие, взнос от 0%</h4>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
                         <div class="col-lg-3 col-md-6 col-sm-12" data-type="0">
                             <div class="special-item">
                                 <a href="/promo/credit_vacation" class="special-item__link">
