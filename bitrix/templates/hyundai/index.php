@@ -15,7 +15,7 @@
                                     <div class="blue-panel">
                                         <div class="blue-panel__inner">
                                             <div>
-                                                от 1 725 000
+                                                от 1 740 000
                                                 &nbsp;₽														</div>
 
                                             <div>
@@ -312,19 +312,20 @@
                                 <a class="slider__link" href="/promo/solaris_super_series"  aria-label="SOLARIS Super Series">
                                     <div class="slider__inner">
                                         <h2 class="slider__title" style="color: #000;">SOLARIS Super Series</h2>
-                                        <div class="slider__subtitle df-banner-subline" style="color: #000;">Стартуй в лето!</div>
+                                        <div class="slider__subtitle df-banner-subline" style="color: #000;">Уникальная комплектация!</div>
                                     </div>
                                     <div class="blue-panel">
                                         <div class="blue-panel__inner">
                                             <div>
-                                                Кредитные каникулы
+                                                от 880 000 ₽
                                             </div>
 
-                                            <div>
-                                                3 месяца платежей в подарок
+                                          <div class="blue-panel__more">
+                                                Подробнее
+                                                <svg>
+                                                    <use xlink:href="#arrow-link"></use>
+                                                </svg>
                                             </div>
-
-
 
                                         </div>
                                     </div>
@@ -364,13 +365,13 @@
                             <li class="slider__item lazyload lazypreview" data-bgset="/storage/banners/1562082085_mob.jpg [(max-width: 640px)] | /storage/banners/1562082085.jpg">
                                 <a class="slider__link" href="/NewSantaFe"  aria-label="Hyundai SANTA FE.">
                                     <div class="slider__inner">
-                                        <h2 class="slider__title" style="color: #000;">Hyundai SANTA FE.</h2>
-                                        <div class="slider__subtitle df-banner-subline" style="color: #000;">Характер победителя.</div>
+                                        <h2 class="slider__title" >Hyundai SANTA FE.</h2>
+                                        <div class="slider__subtitle df-banner-subline" >Характер победителя.</div>
                                     </div>
                                     <div class="blue-panel">
                                         <div class="blue-panel__inner">
                                             <div>
-                                                от 14 000
+                                                от 15 000
                                                 &nbsp;₽/мес.                                                </div>
 
                                             <div>
@@ -398,7 +399,7 @@
                                     <div class="blue-panel">
                                         <div class="blue-panel__inner">
                                             <div>
-                                                от 10 000
+                                                от 11 000
                                                 &nbsp;₽/мес.                                                </div>
 
                                             <div>
@@ -420,8 +421,8 @@
                             <li class="slider__item lazyload lazypreview" data-bgset="/storage/banners/1562082118_mob.jpg [(max-width: 640px)] | /storage/banners/1562082118.jpg">
                                 <a class="slider__link" href="/Solaris"  aria-label="Hyundai SOLARIS.">
                                     <div class="slider__inner">
-                                        <h2 class="slider__title" style="color: #000;">Hyundai SOLARIS.</h2>
-                                        <div class="slider__subtitle df-banner-subline" style="color: #000;">Всё, как вы загадывали.</div>
+                                        <h2 class="slider__title" >Hyundai SOLARIS.</h2>
+                                        <div class="slider__subtitle df-banner-subline" >Всё, как вы загадывали.</div>
                                     </div>
                                     <div class="blue-panel">
                                         <div class="blue-panel__inner">
@@ -458,7 +459,7 @@
                                                 &nbsp;₽/мес.                                                </div>
 
                                             <div>
-                                                Трейд-ин: - 60 000
+                                                Трейд-ин: - 30 000
                                                 &nbsp;₽                                                </div>
 
                                             <div class="blue-panel__more">

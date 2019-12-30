@@ -58,6 +58,22 @@ $APPLICATION->SetTitle("all-offers");
                     <div class="row">
 						      <div class="col-lg-3 col-md-6 col-sm-12" data-type="0">
                             <div class="special-item">
+                                <a href="/promo/halva/" class="special-item__link">
+                                    <div class="special-item-label">
+                                        <p class="df-text-input-14px">Покупателям</p>
+                                    </div>
+                                    <div class="special-item-img" style="background-image: url(/storage/special_offers/preview_1575458301.jpg)"></div>
+                                    <div class="special-item-desc">
+                                        <h4>Честная авторассрочка</h4>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+					
+					
+					
+						      <div class="col-lg-3 col-md-6 col-sm-12" data-type="0">
+                            <div class="special-item">
                                 <a href="/promo/suv-winter2020/" class="special-item__link">
                                     <div class="special-item-label">
                                         <p class="df-text-input-14px">Покупателям</p>

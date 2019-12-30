@@ -204,6 +204,37 @@
                                                             <li class="showroom__line">
                                                                 <h4 class="showroom__title">Новинки</h4>
                                                                 <ul class="showroom__cars">
+																
+																 <li class="showroom__car showroom__car">
+                                                                        <a href="/promo/creta-rock" class="d-car">
+                                                                            <div class="d-car__top-line">
+                                                                                <h5 class="d-car__title">СУПЕР СЕРИЯ II</h5>
+                                                                                <div class="d-car__name">/ SOLARIS</div>
+                                                                            </div>
+                                                                            <div class="d-car__price">от 857 000 ₽</div>
+                                                                            <div class="d-car__m-name">СУПЕР СЕРИЯ II</div>
+                                                                            <div class="d-car__img">
+                                                                                <img class="showroom-lazyload" data-showroomsrc="/assets/ss/ss2_pic.png" alt="СУПЕР СЕРИЯ II">
+                                                                            </div>
+                                                                        </a>
+                                                                    </li>
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
                                                                     <li class="showroom__car showroom__car first-place">
                                                                         <a href="/promo/creta-rock" class="d-car">
                                                                             <div class="d-car__top-line">
@@ -217,45 +248,21 @@
                                                                             </div>
                                                                         </a>
                                                                     </li>
-                                                                    <li class="showroom__car showroom__car">
-                                                                        <a href="/promo/solaris_super_series" class="d-car">
-                                                                            <div class="d-car__top-line">
-                                                                                <h5 class="d-car__title">СУПЕР СЕРИЯ</h5>
-                                                                                <div class="d-car__name">/ SOLARIS</div>
-                                                                            </div>
-                                                                            <div class="d-car__price">от 880 000 ₽</div>
-                                                                            <div class="d-car__m-name">СУПЕР СЕРИЯ</div>
-                                                                            <div class="d-car__img">
-                                                                                <img class="showroom-lazyload" data-showroomsrc="/assets/ss/ss_pic.png" alt="СУПЕР СЕРИЯ">
-                                                                            </div>
-                                                                        </a>
-                                                                    </li>
+                                                                   
                                                                     <li class="showroom__car showroom__car">
                                                                         <a href="/NewSonata" class="d-car" aria-label="NEWSONATA">
                                                                             <div class="d-car__top-line">
                                                                                 <h5 class="d-car__title">Новая СОНАТА</h5>
                                                                                 <div class="d-car__name">/ SONATA</div>
                                                                             </div>
-                                                                            <div class="d-car__price">от 1 725 000 ₽</div>
+                                                                            <div class="d-car__price">от 1 740 000 ₽</div>
                                                                             <div class="d-car__m-name">SONATA</div>
                                                                             <div class="d-car__img">
                                                                                 <img class="showroom-lazyload" data-showroomsrc="/storage/cars/1574242069.png" alt="Новая SONATA">
                                                                             </div>
                                                                         </a>
                                                                     </li>
-                                                                    <li class="showroom__car showroom__car">
-                                                                        <a href="/NewElantra" class="d-car" aria-label="NEWELANTRA">
-                                                                            <div class="d-car__top-line">
-                                                                                <h5 class="d-car__title">Новая ЭЛАНТРА</h5>
-                                                                                <div class="d-car__name">/ ELANTRA</div>
-                                                                            </div>
-                                                                            <div class="d-car__price">от 1 049 000 ₽</div>
-                                                                            <div class="d-car__m-name">ELANTRA</div>
-                                                                            <div class="d-car__img">
-                                                                                <img class="showroom-lazyload" data-showroomsrc="/storage/cars/1561041448.png" alt="Новая ELANTRA">
-                                                                            </div>
-                                                                        </a>
-                                                                    </li>
+                                                                  
                                                                    <!-- <li class="showroom__car showroom__car">
                                                                         <a href="/i30N" class="d-car" aria-label="I30N">
                                                                             <div class="d-car__top-line">
@@ -274,6 +281,19 @@
                                                             <li class="showroom__line">
                                                                 <h4 class="showroom__title">Городские</h4>
                                                                 <ul class="showroom__cars">
+																	 <li class="showroom__car showroom__car">
+                                                                        <a href="/promo/solaris_super_series" class="d-car">
+                                                                            <div class="d-car__top-line">
+                                                                                <h5 class="d-car__title">СУПЕР СЕРИЯ</h5>
+                                                                                <div class="d-car__name">/ SOLARIS</div>
+                                                                            </div>
+                                                                            <div class="d-car__price">от 880 000 ₽</div>
+                                                                            <div class="d-car__m-name">СУПЕР СЕРИЯ</div>
+                                                                            <div class="d-car__img">
+                                                                                <img class="showroom-lazyload" data-showroomsrc="/assets/ss/ss_pic.png" alt="СУПЕР СЕРИЯ">
+                                                                            </div>
+                                                                        </a>
+                                                                    </li>
                                                                     <li class="showroom__car showroom__car first-place">
                                                                         <a href="/Solaris" class="d-car" aria-label="SOLARIS">
                                                                             <div class="d-car__top-line">
@@ -284,6 +304,19 @@
                                                                             <div class="d-car__m-name">SOLARIS</div>
                                                                             <div class="d-car__img">
                                                                                 <img class="showroom-lazyload" data-showroomsrc="/storage/cars/1561041395.png" alt="Solaris">
+                                                                            </div>
+                                                                        </a>
+                                                                    </li>
+																	  <li class="showroom__car showroom__car">
+                                                                        <a href="/NewElantra" class="d-car" aria-label="NEWELANTRA">
+                                                                            <div class="d-car__top-line">
+                                                                                <h5 class="d-car__title">ЭЛАНТРА</h5>
+                                                                                <div class="d-car__name">/ ELANTRA</div>
+                                                                            </div>
+                                                                            <div class="d-car__price">от 1 049 000 ₽</div>
+                                                                            <div class="d-car__m-name">ELANTRA</div>
+                                                                            <div class="d-car__img">
+                                                                                <img class="showroom-lazyload" data-showroomsrc="/storage/cars/1561041448.png" alt="Новая ELANTRA">
                                                                             </div>
                                                                         </a>
                                                                     </li>
@@ -300,8 +333,11 @@
                                                                             </div>
                                                                         </a>
                                                                     </li>
+																
+																	
                                                                 </ul>
                                                             </li>
+															 
                                                             <li class="showroom__line">
                                                                 <h4 class="showroom__title">Кроссоверы</h4>
                                                                 <ul class="showroom__cars">
