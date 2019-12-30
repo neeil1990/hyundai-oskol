@@ -489,6 +489,9 @@
                                                         <li class="df-dropdown__submenu-item">
                                                             <a href="/shell" class="df-dropdown__link"><span>Моторное масло</span></a>
                                                         </li>
+                                                        <li class="df-dropdown__submenu-item">
+                                                            <a href="/promo/auto_link" class="df-dropdown__link"><span>Auto Link Hyundai</span></a>
+                                                        </li>
                                                     </ul>
                                                 </li>
                                                 <li class="df-dropdown__item col-lg-3 col-md-12">
