@@ -64,7 +64,7 @@ $APPLICATION->SetTitle("Новый TUCSON.");
                 </div>
                 <div class="blue-label">
                     <div class="blue-label__top">
-                        <span>от</span> 1 499 000<span id="price-from"></span> &#8381;
+                        <span>от</span> <span id="price-from"></span> &#8381;
                     </div>
                     <hr>
                     <div class="blue-label__bottom">

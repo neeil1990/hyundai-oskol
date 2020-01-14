@@ -204,9 +204,9 @@
                                                             <li class="showroom__line">
                                                                 <h4 class="showroom__title">Новинки</h4>
                                                                 <ul class="showroom__cars">
-																
+
 																 <li class="showroom__car showroom__car">
-                                                                        <a href="/promo/creta-rock" class="d-car">
+                                                                        <a href="/promo/solaris_super_series_2" class="d-car">
                                                                             <div class="d-car__top-line">
                                                                                 <h5 class="d-car__title">СУПЕР СЕРИЯ II</h5>
                                                                                 <div class="d-car__name">/ SOLARIS</div>
@@ -281,6 +281,7 @@
                                                             <li class="showroom__line">
                                                                 <h4 class="showroom__title">Городские</h4>
                                                                 <ul class="showroom__cars">
+<!--
 																	 <li class="showroom__car showroom__car">
                                                                         <a href="/promo/solaris_super_series" class="d-car">
                                                                             <div class="d-car__top-line">
@@ -294,6 +295,7 @@
                                                                             </div>
                                                                         </a>
                                                                     </li>
+-->
                                                                     <li class="showroom__car showroom__car first-place">
                                                                         <a href="/Solaris" class="d-car" aria-label="SOLARIS">
                                                                             <div class="d-car__top-line">
@@ -320,6 +322,7 @@
                                                                             </div>
                                                                         </a>
                                                                     </li>
+<!-- 
                                                                     <li class="showroom__car showroom__car">
                                                                         <a href="/Sonata" class="d-car" aria-label="SONATA">
                                                                             <div class="d-car__top-line">
@@ -333,6 +336,7 @@
                                                                             </div>
                                                                         </a>
                                                                     </li>
+-->
 																
 																	
                                                                 </ul>

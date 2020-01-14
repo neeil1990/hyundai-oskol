@@ -54,7 +54,7 @@ $APPLICATION->SetTitle("Creta");
                 </div>
             </section>
 
-            <section class="banner section section--big lazyload lazypreview" data-bgset="/images/cars/creta/m_pics/01_title/title.jpg [(max-width: 640px)] | /images/cars/creta/pics/title.jpg">
+            <section class="banner section section--big lazyload lazypreview" style="background-position: 50% 50%;" data-bgset="/images/cars/creta/m_pics/01_title/title.jpg [(max-width: 640px)] | /images/cars/creta/pics/title.jpg">
                 <div class="banner__head">
                     <h1 class="banner__title">
                         <span>Hyundai CRETA.</span>
