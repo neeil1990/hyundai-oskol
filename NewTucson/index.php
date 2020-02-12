@@ -172,11 +172,13 @@ $APPLICATION->SetTitle("Новый TUCSON.");
                                     2.0 MPI
                                 </a>
                             </li>
+<!--
                             <li class="dynamics__tab dynamics__tab--right">
                                 <a data-view="view1" href="#" class="dynamics__link js-change-view">
                                     1.6 T-GDi
                                 </a>
                             </li>
+-->
                             <li class="dynamics__tab">
                                 <a data-view="view2" href="#" class="dynamics__link js-change-view">
                                     2.0 Diesel
@@ -217,6 +219,7 @@ $APPLICATION->SetTitle("Новый TUCSON.");
                         </div>
                     </li>
                 </ul>
+<!--
                 <ul class="dynamics__specs dynamics__specs--1">
                     <li class="dynamics__spec">
                         <div class="dynamics__specs-w dynamics__specs-w--0">
@@ -249,6 +252,7 @@ $APPLICATION->SetTitle("Новый TUCSON.");
                         </div>
                     </li>
                 </ul>
+-->
                 <ul class="dynamics__specs dynamics__specs--2">
                     <li class="dynamics__spec">
                         <div class="dynamics__specs-w dynamics__specs-w--0">

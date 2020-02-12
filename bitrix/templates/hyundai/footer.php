@@ -229,7 +229,7 @@
             </div>
             <div class="row">
                 <div class="footer-bottom__copyright col-md-12">
-                    2019 © ООО “Хендэ Мотор СНГ”
+                    2020 © ООО “Хендэ Мотор СНГ”
                 </div>
             </div>
         </div>

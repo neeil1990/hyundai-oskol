@@ -211,7 +211,7 @@
                                                                                 <h5 class="d-car__title">СУПЕР СЕРИЯ II</h5>
                                                                                 <div class="d-car__name">/ SOLARIS</div>
                                                                             </div>
-                                                                            <div class="d-car__price">от 857 000 ₽</div>
+                                                                            <div class="d-car__price">от 867 000 ₽</div>
                                                                             <div class="d-car__m-name">СУПЕР СЕРИЯ II</div>
                                                                             <div class="d-car__img">
                                                                                 <img class="showroom-lazyload" data-showroomsrc="/assets/ss/ss2_pic.png" alt="СУПЕР СЕРИЯ II">
@@ -241,7 +241,7 @@
                                                                                 <h5 class="d-car__title">ROCK EDITION</h5>
                                                                                 <div class="d-car__name">/ CRETA</div>
                                                                             </div>
-                                                                            <div class="d-car__price">от 1 405 000 ₽</div>
+                                                                            <div class="d-car__price">от 1 420 000 ₽</div>
                                                                             <div class="d-car__m-name">ROCK EDITION</div>
                                                                             <div class="d-car__img">
                                                                                 <img class="showroom-lazyload" data-showroomsrc="/assets/ss/new/creta_rock.png" alt="ROCK EDITION">
@@ -302,7 +302,7 @@
                                                                                 <h5 class="d-car__title">СОЛЯРИС</h5>
                                                                                 <div class="d-car__name">/ SOLARIS</div>
                                                                             </div>
-                                                                            <div class="d-car__price">от 739 000 ₽</div>
+                                                                            <div class="d-car__price">от 756 000 ₽</div>
                                                                             <div class="d-car__m-name">SOLARIS</div>
                                                                             <div class="d-car__img">
                                                                                 <img class="showroom-lazyload" data-showroomsrc="/storage/cars/1561041395.png" alt="Solaris">
@@ -315,7 +315,7 @@
                                                                                 <h5 class="d-car__title">ЭЛАНТРА</h5>
                                                                                 <div class="d-car__name">/ ELANTRA</div>
                                                                             </div>
-                                                                            <div class="d-car__price">от 1 049 000 ₽</div>
+                                                                            <div class="d-car__price">от 1 074 000 ₽</div>
                                                                             <div class="d-car__m-name">ELANTRA</div>
                                                                             <div class="d-car__img">
                                                                                 <img class="showroom-lazyload" data-showroomsrc="/storage/cars/1561041448.png" alt="Новая ELANTRA">
@@ -351,7 +351,7 @@
                                                                                 <h5 class="d-car__title">КРЕТА</h5>
                                                                                 <div class="d-car__name">/ CRETA</div>
                                                                             </div>
-                                                                            <div class="d-car__price">от 957 000 ₽</div>
+                                                                            <div class="d-car__price">от 972 000 ₽</div>
                                                                             <div class="d-car__m-name">CRETA</div>
                                                                             <div class="d-car__img">
                                                                                 <img class="showroom-lazyload" data-showroomsrc="/storage/cars/1561041417.png" alt="Creta">
@@ -364,7 +364,7 @@
                                                                                 <h5 class="d-car__title">Новый ТУССАН</h5>
                                                                                 <div class="d-car__name">/ TUCSON</div>
                                                                             </div>
-                                                                            <div class="d-car__price">от 1 499 000 ₽</div>
+                                                                            <div class="d-car__price">от 1 549 000 ₽</div>
                                                                             <div class="d-car__m-name">TUCSON</div>
                                                                             <div class="d-car__img">
                                                                                 <img class="showroom-lazyload" data-showroomsrc="/storage/cars/1561041387.png" alt="Новый TUCSON">
@@ -377,7 +377,7 @@
                                                                                 <h5 class="d-car__title">Новый САНТА ФЭ</h5>
                                                                                 <div class="d-car__name">/ SANTA FE</div>
                                                                             </div>
-                                                                            <div class="d-car__price">от 2 099 000 ₽</div>
+                                                                            <div class="d-car__price">от 2 149 000 ₽</div>
                                                                             <div class="d-car__m-name">SANTA FE</div>
                                                                             <div class="d-car__img">
                                                                                 <img class="showroom-lazyload" data-showroomsrc="/storage/cars/1561041379.png" alt="Новый SANTA FE">
@@ -395,7 +395,7 @@
                                                                                 <h5 class="d-car__title">ЭЙЧ-1</h5>
                                                                                 <div class="d-car__name">/ H-1</div>
                                                                             </div>
-                                                                            <div class="d-car__price">от 2 129 000 ₽</div>
+                                                                            <div class="d-car__price">от 2 139 000 ₽</div>
                                                                             <div class="d-car__m-name">H-1</div>
                                                                             <div class="d-car__img">
                                                                                 <img class="showroom-lazyload" data-showroomsrc="/storage/cars/1561041426.png" alt="H-1">
@@ -439,6 +439,9 @@
                                                         </li>
                                                         <li class="df-dropdown__submenu-item">
                                                             <a href="/all-offers#service" class="df-dropdown__link"><span>Акции сервис</span></a>
+                                                        </li>
+														<li class="df-dropdown__submenu-item">
+                                                            <a href="https://hmr.e-credit.one/e-osago/" class="df-dropdown__link"><span>Продлить ОСАГО онлайн</span></a>
                                                         </li>
                                                     </ul>
                                                 </li>

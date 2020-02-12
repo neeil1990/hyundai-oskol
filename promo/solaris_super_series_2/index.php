@@ -9,7 +9,6 @@ $APPLICATION->SetTitle("Уникальный SOLARIS Super Series");
                 <div class="content_area">
                     <img class="promo-head lazyload" src="/getPicThumb/assets/ss/ss_2_bg.jpg?w=100&h=0" data-src="/assets/ss/ss_2_bg.jpg" style="">
                     <img class="promo-head-mobile lazyload" src="/getPicThumb/assets/ss/ss_2_mob.jpg?w=100&h=0" width="640px" height="700px" data-src="/assets/ss/ss_2_mob.jpg" style="">
-
                     <div class="offers-content">
 
                         <h1 class="title-offer bordr-btm"><span class="nowrp">Уникальный SOLARIS Super Series II</span></h1>

@@ -6,11 +6,11 @@
                     <div class="col-md-12">
                         <ul class="slider__body js-main-slider owl-carousel">
 
-                            <li class="slider__item lazyload lazypreview" data-bgset="/storage/banners/1574246641_mob.jpg [(max-width: 640px)] | /storage/banners/1574246641.jpg">
-                                <a class="slider__link" href="/NewSonata/"  aria-label="Новая Hyundai SONATA.">
+                            <li class="slider__item lazyload lazypreview" data-bgset="/storage/banners/1580136341_mob.jpg [(max-width: 640px)] | /storage/banners/1580136341.jpg">
+                                <a class="slider__link" href="№"  aria-label="Новая Hyundai SONATA.">
                                     <div class="slider__inner">
-                                        <h2 class="slider__title">Новая Hyundai SONATA.</h2>
-                                        <div class="slider__subtitle df-banner-subline">Искусственный интеллект. Истинные чувства.</div>
+                                        <h2 class="slider__title">Новая SONATA.</h2>
+                                        <div class="slider__subtitle df-banner-subline">Уникальная комплектация Online.</div>
                                     </div>
                                     <div class="blue-panel">
                                         <div class="blue-panel__inner">
@@ -34,6 +34,95 @@
                                     </div>
                                 </a>
                             </li>
+
+<li class="slider__item lazyload lazypreview" data-bgset="/storage/banners/1579617239_mob.jpg [(max-width: 640px)] | /storage/banners/1579617527.jpg">
+                                <a class="slider__link" href="https://hmr.e-credit.one/e-osago/" target=&quot;_blank&quot; aria-label="Продлить полис ОСАГО онлайн!">
+                                    <div class="slider__inner">
+                                        <h2 class="slider__title" style="color: white;">Продлить полис ОСАГО онлайн!</h2>
+                                        <div class="slider__subtitle df-banner-subline" style="color: white;">Продление полиса ОСАГО на ваш Hyundai с помощью онлайн-сервиса.</div>
+                                    </div>
+                                    <div class="blue-panel">
+                                        <div class="blue-panel__inner">
+                                            <div class="blue-panel__more">
+                                                Перейти
+                                                <svg>
+                                                    <use xlink:href="#arrow-link"></use>
+                                                </svg>
+                                            </div>
+
+
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+
+<li class="slider__item lazyload lazypreview" data-bgset="/storage/banners/1577794735_mob.jpg [(max-width: 640px)] | /storage/banners/1577794735.jpg">
+                                <a class="slider__link" href="№" target=&quot;_blank&quot; aria-label="Продлить полис ОСАГО онлайн!">
+                                    <div class="slider__inner">
+                                        <h2 class="slider__title" style="color: white;">Найди комету Hyundai в Парке Горького!</h2>
+                                        <div class="slider__subtitle df-banner-subline" style="color: white;">Отправь своё послание в космос.</div>
+                                    </div>
+                                </a>
+                            </li>
+
+
+                            <li class="slider__item lazyload lazypreview" data-bgset="/storage/banners/1564155133_mob.jpg [(max-width: 640px)] | /storage/banners/1566902733.jpg">
+                                <a class="slider__link" href="/promo/new_owners" target=&quot;_blank&quot; aria-label="С первым автомобилем!">
+                                    <div class="slider__inner">
+										<h2 class="slider__title" style="color: black;">С первым автомобилем!</h2>
+
+                                    </div>
+                                    <div class="blue-panel">
+                                        <div class="blue-panel__inner">
+                                            <div>
+                                                Выгода 10%
+                                                </div>
+
+                                            <div>
+                                                на  CRETA и SOLARIS
+                                            </div>
+
+                                            <div class="blue-panel__more">
+                                                Перейти
+                                                <svg>
+                                                    <use xlink:href="#arrow-link"></use>
+                                                </svg>
+                                            </div>
+
+
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+ <li class="slider__item lazyload lazypreview" data-bgset="/storage/banners/1564407017_mob.jpg [(max-width: 640px)] | /storage/banners/1566902742.jpg">
+                                <a class="slider__link" href="/promo/family_car" target=&quot;_blank&quot; aria-label="С первым автомобилем!">
+                                    <div class="slider__inner">
+										<h2 class="slider__title" style="color: black;">С прибавлением!</h2>
+
+                                    </div>
+                                    <div class="blue-panel">
+                                        <div class="blue-panel__inner">
+                                            <div>
+                                                Выгода 10%
+                                                </div>
+
+                                            <div>
+                                                на  CRETA и SOLARIS
+                                            </div>
+
+                                            <div class="blue-panel__more">
+                                                Перейти
+                                                <svg>
+                                                    <use xlink:href="#arrow-link"></use>
+                                                </svg>
+                                            </div>
+
+
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+
 
                             <li class="slider__item lazyload lazypreview" data-bgset="/storage/banners/1575461362_mob.jpg [(max-width: 640px)] | /storage/banners/1575461362.jpg">
                                 <a class="slider__link" href="/promo/halva" target=&quot;_blank&quot; aria-label="Честная авторассрочка.">
@@ -155,6 +244,7 @@
                                     </div>
                                 </a>
                             </li>
+
 							<li class="slider__item lazyload lazypreview" data-bgset="/storage/banners/11570620170_mob.jpg [(max-width: 640px)] | /storage/banners/11570620012.jpg">
                                 <a class="slider__link" href="/promo/suv-rock"  aria-label="TUCSON и SANTA FE Rock Edition.">
                                     <div class="slider__inner">
@@ -307,7 +397,7 @@
                                         </div>
                                     </div>
                                 </a>
-                            </li>-->
+                            </li>
                             <li class="slider__item lazyload lazypreview" data-bgset="/storage/banners/1562082212_mob.jpg [(max-width: 640px)] | /storage/banners/1562082212.jpg">
                                 <a class="slider__link" href="/promo/solaris_super_series"  aria-label="SOLARIS Super Series">
                                     <div class="slider__inner">
@@ -473,7 +563,7 @@
                                         </div>
                                     </div>
                                 </a>
-                            </li>
+                            </li>-->
                         </ul>
                     </div>
                 </div>
@@ -587,7 +677,7 @@
                             </div>
                             <div class="mir-b__center">
                                 <h2 class="mir-b__title">
-                                    Программа привилегий для текущих и&nbsp;будущих клиентов Hyundai
+                                    Платформа для владельцев автомобилей Hyundai и всех, кто хочет познакомиться с брендом.
                                 </h2>
                                 <ul class="mir-b__list">
                                     <li class="mir-b__item">
@@ -597,10 +687,10 @@
                                             </svg>
                                         </div>
                                         <div class="mir-b__description">
-                                            Бонусные <br>баллы
+                                            Личный <br>кабинет
                                         </div>
                                         <div class="mir-b__text df-text-input-14px">
-                                            Персональные скидки и подарки
+                                            Информация об автомобиле всегда под рукой
                                         </div>
                                     </li>
                                     <li class="mir-b__item">
@@ -610,23 +700,23 @@
                                             </svg>
                                         </div>
                                         <div class="mir-b__description">
-                                            Запись на&nbsp;тех. обслуживание
+                                            Запись &nbsp;на тест-драйв
                                         </div>
                                         <div class="mir-b__text df-text-input-14px">
-                                            Запись всего в&nbsp;3&nbsp;клика
+                                            Выберите дилерский центр и пройдите тест-драйв автомобиля
                                         </div>
                                     </li>
                                     <li class="mir-b__item">
-                                        <div class="mir-b__icon ic-pig">
-                                            <svg  role="img" aria-hidden="true">
-                                                <use xlink:href="#ic-pig"></use>
-                                            </svg>
-                                        </div>
+                                        <div class="mir-b__icon ic-fix">
+                                        <svg role="img" aria-hidden="true">
+                                            <use xlink:href="#mir-testdrive"></use>
+                                        </svg>
+                                    </div>
                                         <div class="mir-b__description">
-                                            Финансовые программы
+                                            Клуб&nbsp;Hyundai
                                         </div>
                                         <div class="mir-b__text df-text-input-14px">
-                                            Узнавайте первыми о&nbsp;новых предложениях
+                                            Общайтесь и создавайте интересные маршруты
                                         </div>
                                     </li>
                                 </ul>

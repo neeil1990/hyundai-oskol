@@ -56,6 +56,19 @@ $APPLICATION->SetTitle("all-offers");
             <section class="special-content">
                 <div class="container">
                     <div class="row">
+<div class="col-lg-3 col-md-6 col-sm-12" data-type="0">
+                            <div class="special-item">
+								<a href="/promo/new_owners/" class="special-item__link">
+                                    <div class="special-item-label">
+                                        <p class="df-text-input-14px">Покупателям</p>
+                                    </div>
+                                    <div class="special-item-img" style="background-image: url(/storage/special_offers/preview_1563355026.jpg)"></div>
+                                    <div class="special-item-desc">
+                                        <h4>Первый автомобиль.<br>Выгода 10% на Creta и Solaris</h4>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
 						      <div class="col-lg-3 col-md-6 col-sm-12" data-type="0">
                             <div class="special-item">
                                 <a href="/promo/halva/" class="special-item__link">
@@ -65,6 +78,19 @@ $APPLICATION->SetTitle("all-offers");
                                     <div class="special-item-img" style="background-image: url(/storage/special_offers/preview_1575458301.jpg)"></div>
                                     <div class="special-item-desc">
                                         <h4>Честная авторассрочка</h4>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+<div class="col-lg-3 col-md-6 col-sm-12" data-type="0">
+                            <div class="special-item">
+								<a href="/promo/family_car/" class="special-item__link">
+                                    <div class="special-item-label">
+                                        <p class="df-text-input-14px">Покупателям</p>
+                                    </div>
+                                    <div class="special-item-img" style="background-image: url(/storage/special_offers/preview_1563355043.jpg)"></div>
+                                    <div class="special-item-desc">
+                                        <h4>Семейный автомобиль.<br>Выгода 10% на Creta и Solaris</h4>
                                     </div>
                                 </a>
                             </div>
@@ -80,7 +106,7 @@ $APPLICATION->SetTitle("all-offers");
                                     </div>
                                     <div class="special-item-img" style="background-image: url(/storage/special_offers/preview_1572595076.jpg)"></div>
                                     <div class="special-item-desc">
-                                        <h4>Кроссоверы Hyunday.<br>С тобой заодно.</h4>
+                                        <h4>Кроссоверы Hyundai.<br>С тобой заодно.</h4>
                                     </div>
                                 </a>
                             </div>
@@ -98,6 +124,46 @@ $APPLICATION->SetTitle("all-offers");
                                 </a>
                             </div>
                         </div>
+                        <div class="col-lg-3 col-md-6 col-sm-12" data-type="2">
+                            <div class="special-item">
+                                <a href="/promo/trade-in-sale" class="special-item__link">
+                                    <div class="special-item-label">
+                                        <p class="df-text-input-14px">Трейд-ин</p>
+                                    </div>
+                                    <div class="special-item-img" style="background-image: url(/storage/special_offers/preview_1568906599.jpg)"></div>
+                                    <div class="special-item-desc">
+                                        <h4>Выгода при покупке по программе Трейд-ин</h4>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+ <div class="col-lg-3 col-md-6 col-sm-12" data-type="1">
+                            <div class="special-item">
+                                <a href="https://sgs-hyundai.ru/?_ga=2.72817942.423615045.1579604413-1912923133.1578653968" class="special-item__link">
+                                    <div class="special-item-label">
+                                        <p class="df-text-input-14px">Сервис</p>
+                                    </div>
+                                    <div class="special-item-img" style="background-image: url(/storage/special_offers/preview_1576225763.jpg)"></div>
+                                    <div class="special-item-desc">
+                                        <h4>Станьте тайным агентом Hyundai</h4>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+<div class="col-lg-3 col-md-6 col-sm-12" data-type="2">
+                            <div class="special-item">
+                                <a href="/special-offer" class="special-item__link">
+                                    <div class="special-item-label">
+                                        <p class="df-text-input-14px">Трейд-ин</p>
+                                    </div>
+                                    <div class="special-item-img" style="background-image: url(/storage/special_offers/d308a9d099eddef6dc761a31e85c9edc_banner_special_offer_preview.jpg)"></div>
+                                    <div class="special-item-desc">
+                                        <h4>Выгода на покупку для владельцев Hyundai</h4>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+
 								  <div class="col-lg-3 col-md-6 col-sm-12" data-type="0">
                             <div class="special-item">
                                 <a href="/start/" class="special-item__link">
@@ -113,6 +179,20 @@ $APPLICATION->SetTitle("all-offers");
                         </div>
                         <div class="col-lg-3 col-md-6 col-sm-12" data-type="0">
                             <div class="special-item">
+                                <a href="/promo/cska_sponsorship" class="special-item__link">
+                                    <div class="special-item-label">
+                                        <p class="df-text-input-14px">Покупателям</p>
+                                    </div>
+                                    <div class="special-item-img" style="background-image: url(/storage/special_offers/preview_1564997971.jpg)"></div>
+                                    <div class="special-item-desc">
+                                        <h4>Спонсорское соглашение Hyundai и ПФК ЦСКА</h4>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+<!--
+                        <div class="col-lg-3 col-md-6 col-sm-12" data-type="0">
+                            <div class="special-item">
                                 <a href="/promo/credit_vacation" class="special-item__link">
                                     <div class="special-item-label">
                                         <p class="df-text-input-14px">Покупателям</p>
@@ -124,6 +204,7 @@ $APPLICATION->SetTitle("all-offers");
                                 </a>
                             </div>
                         </div>
+
                         <div class="col-lg-3 col-md-6 col-sm-12" data-type="0">
                             <div class="special-item">
                                 <a href="/promo/solaris_super_series" class="special-item__link">
@@ -137,48 +218,10 @@ $APPLICATION->SetTitle("all-offers");
                                 </a>
                             </div>
                         </div>
-                   
-                        <div class="col-lg-3 col-md-6 col-sm-12" data-type="0">
-                            <div class="special-item">
-                                <a href="/promo/cska_sponsorship" class="special-item__link">
-                                    <div class="special-item-label">
-                                        <p class="df-text-input-14px">Покупателям</p>
-                                    </div>
-                                    <div class="special-item-img" style="background-image: url(/storage/special_offers/88c0f30c73ebfbe7978e691bcadcbb5e_CSKA_new_preview.jpg)"></div>
-                                    <div class="special-item-desc">
-                                        <h4>Спонсорское соглашение Hyundai и ПФК ЦСКА</h4>
-                                    </div>
-                                </a>
-                            </div>
-                        </div>
+-->
 
-                        <div class="col-lg-3 col-md-6 col-sm-12" data-type="2">
-                            <div class="special-item">
-                                <a href="/promo/trade-in-sale" class="special-item__link">
-                                    <div class="special-item-label">
-                                        <p class="df-text-input-14px">Трейд-ин</p>
-                                    </div>
-                                    <div class="special-item-img" style="background-image: url(/storage/special_offers/preview_1568906599.jpg)"></div>
-                                    <div class="special-item-desc">
-                                        <h4>Выгода при покупке по программе Трейд-ин</h4>
-                                    </div>
-                                </a>
-                            </div>
-                        </div>
-                 
-                        <div class="col-lg-3 col-md-6 col-sm-12" data-type="2">
-                            <div class="special-item">
-                                <a href="/special-offer" class="special-item__link">
-                                    <div class="special-item-label">
-                                        <p class="df-text-input-14px">Трейд-ин</p>
-                                    </div>
-                                    <div class="special-item-img" style="background-image: url(/storage/special_offers/d308a9d099eddef6dc761a31e85c9edc_banner_special_offer_preview.jpg)"></div>
-                                    <div class="special-item-desc">
-                                        <h4>Специальное предложение для владельцев Hyundai</h4>
-                                    </div>
-                                </a>
-                            </div>
-                        </div>
+
+
                         <div class="col-lg-3 col-md-6 col-sm-12" data-type="2">
                             <div class="special-item">
                                 <a href="https://hpromise.hyundai.ru/" class="special-item__link">
@@ -231,6 +274,7 @@ $APPLICATION->SetTitle("all-offers");
                                 </a>
                             </div>
                         </div>
+<!--
    <div class="col-lg-3 col-md-6 col-sm-12" data-type="1">
                             <div class="special-item">
                                 <a href="/promo/shell-wins" class="special-item__link">
@@ -243,6 +287,7 @@ $APPLICATION->SetTitle("all-offers");
                                     </div>
                                 </a>
                             </div>
+
                         </div>
                         <?
                         if(CModule::IncludeModule("iblock")) {
@@ -270,6 +315,7 @@ $APPLICATION->SetTitle("all-offers");
                             }
                         }
                         ?>
+-->
                     </div>
                 </div>
             </section>

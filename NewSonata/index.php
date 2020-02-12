@@ -206,7 +206,7 @@ $APPLICATION->SetTitle("SONATA.");
                         <ul class="dynamics__tabs">
                             <li class="dynamics__tab">
                                 <a data-view="view0" href="#" class="dynamics__link js-change-view active">
-                                    2.5 MPi
+                                    2.5 MPi Smartstream
                                 </a>
                             </li>
                             <!-- <li class="dynamics__tab">

@@ -37,6 +37,10 @@ $APPLICATION->SetTitle("Руководства, каталоги и буклет
                                             <img src="/storage/cars/1561041417.png" alt="" class="swiper-slide__img">
                                             <p class="swiper-slide__desc">Creta</p>
                                         </div>
+										<div class="swiper-slide " data-model="Elantra">
+                                            <img src="/storage/cars/1561041448.png" alt="" class="swiper-slide__img">
+                                            <p class="swiper-slide__desc">ELANTRA</p>
+                                        </div>
                                         <div class="swiper-slide " data-model="H-1">
                                             <img src="/storage/cars/1561041426.png" alt="" class="swiper-slide__img">
                                             <p class="swiper-slide__desc">H-1</p>
@@ -50,13 +54,10 @@ $APPLICATION->SetTitle("Руководства, каталоги и буклет
                                             <p class="swiper-slide__desc">Solaris</p>
                                         </div>
                                         <div class="swiper-slide " data-model="Sonata">
-                                            <img src="/storage/cars/1561041410.png" alt="" class="swiper-slide__img">
-                                            <p class="swiper-slide__desc">SONATA</p>
+                                            <img src="/storage/cars/1574242069.png" alt="" class="swiper-slide__img">
+                                            <p class="swiper-slide__desc">Новая SONATA</p>
                                         </div>
-                                        <div class="swiper-slide " data-model="NewElantra">
-                                            <img src="/storage/cars/1561041448.png" alt="" class="swiper-slide__img">
-                                            <p class="swiper-slide__desc">Новая ELANTRA</p>
-                                        </div>
+
                                         <div class="swiper-slide " data-model="NewSantaFe">
                                             <img src="/storage/cars/1561041379.png" alt="" class="swiper-slide__img">
                                             <p class="swiper-slide__desc">Новый SANTA FE</p>
@@ -183,20 +184,7 @@ $APPLICATION->SetTitle("Руководства, каталоги и буклет
                 <div class="materials-content" style="display: none;" data-model="Solaris">
                     <div class="container">
                         <div class="row">
-                            <div class="col-lg-4 col-md-6">
-                                <a href="/storage/manual/1557734369.pdf" class="materials__item" target="_blank">
-                                    <h3 class="materials__item-title">Руководство по эксплуатации</h3>
-                                    <div class="materials__bottom">
-                                        <div class="df-download-link">
-                                            <svg>
-                                                <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#download-link"></use>
-                                            </svg>
-                                            Скачать
-                                        </div>
-                                        <span class="materials__model">Solaris</span>
-                                    </div>
-                                </a>
-                            </div>
+
                             <div class="col-lg-4 col-md-6">
                                 <a href="/storage/manual/1562064422.pdf" class="materials__item" target="_blank">
                                     <h3 class="materials__item-title">Руководство по эксплуатации</h3>
@@ -246,7 +234,7 @@ $APPLICATION->SetTitle("Руководства, каталоги и буклет
                     <div class="container">
                         <div class="row">
                             <div class="col-lg-4 col-md-6">
-                                <a href="/storage/manual/1562064586.pdf" class="materials__item" target="_blank">
+                                <a href="/storage/manual/2020-NewSonata.pdf" class="materials__item" target="_blank">
                                     <h3 class="materials__item-title">Руководство по эксплуатации</h3>
                                     <div class="materials__bottom">
                                         <div class="df-download-link">
@@ -255,14 +243,14 @@ $APPLICATION->SetTitle("Руководства, каталоги и буклет
                                             </svg>
                                             Скачать
                                         </div>
-                                        <span class="materials__model">SONATA</span>
+                                        <span class="materials__model">Новая SONATA</span>
                                     </div>
                                 </a>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="materials-content" style="display: none;" data-model="NewElantra">
+                <div class="materials-content" style="display: none;" data-model="Elantra">
                     <div class="container">
                         <div class="row">
                             <div class="col-lg-4 col-md-6">
@@ -275,7 +263,7 @@ $APPLICATION->SetTitle("Руководства, каталоги и буклет
                                             </svg>
                                             Скачать
                                         </div>
-                                        <span class="materials__model">Новая ELANTRA</span>
+                                        <span class="materials__model">ELANTRA</span>
                                     </div>
                                 </a>
                             </div>
