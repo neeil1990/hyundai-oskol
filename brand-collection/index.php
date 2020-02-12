@@ -63,6 +63,162 @@ $APPLICATION->SetTitle("Бренд-коллекция.");
                         <div class="col-md-12">
                             <h2 class="new__title">Новинки</h2>
                             <ul class="new__list owl-carousel js-slider">
+                                <li class="new__item">
+                                    <a href="#" class="product" data-id="4">
+                                        <div class="product__img">
+                                            <img src="/storage/brandcollection_products/8725c0509999ff45.jpg" alt="">
+                                        </div>
+                                        <div class="product__name">Брелок Hyundai</div>
+                                        <div class="product__price">802 ₽</div>
+                                        <div class="product__art product__hidden">R8480AC560H</div>
+                                        <div class="product__description product__hidden">Стильный металлический брелок с рельефным логотипом Hyundai. Матовое покрытие и вставка, имитирующая дерево, придают аксессуару особую элегантность.</div>
+                                        <div class="product__material product__hidden">металл, дерево</div>
+                                        <div class="product__size product__hidden">0,9*0,3*0,5</div>
+                                    </a>
+                                </li>
+                                <li class="new__item">
+                                    <a href="#" class="product" data-id="9">
+                                        <div class="product__img">
+                                            <img src="/storage/brandcollection_products/2515c0509c10d4e5.jpg" alt="">
+                                        </div>
+                                        <div class="product__name">Визитница</div>
+                                        <div class="product__price">1 830 ₽</div>
+                                        <div class="product__art product__hidden">R8480AC559H</div>
+                                        <div class="product__description product__hidden">Визитница из натуральной автомобильной кожи Nappa темно синего цвета. Удобный аксессуар с логотипом Hyundai имеет 6 кармашков для пластиковых карт и отделение для хранения купюр.</div>
+                                        <div class="product__material product__hidden">натуральная кожа</div>
+                                        <div class="product__size product__hidden">10,5*8,5*0,3</div>
+                                    </a>
+                                </li>
+                                <li class="new__item">
+                                    <a href="#" class="product" data-id="14">
+                                        <div class="product__img">
+                                            <img src="/storage/brandcollection_products/8655c050a1670ad6.jpg" alt="">
+                                        </div>
+                                        <div class="product__name">Держатель для телефона</div>
+                                        <div class="product__price">1 203 ₽</div>
+                                        <div class="product__art product__hidden">R8480AC579H</div>
+                                        <div class="product__description product__hidden">Магнитный держатель для мобильного устройства. Устройство с шарниром позволяет водителю закрепить с оптимальным углом обзора мобильный телефон, смартфон или небольшой планшет.</div>
+                                        <div class="product__material product__hidden">металл, магнит, резина, ЗМ скотч</div>
+                                        <div class="product__size product__hidden">0,4*0,40*0,35</div>
+                                    </a>
+                                </li>
+                                <li class="new__item">
+                                    <a href="#" class="product" data-id="16">
+                                        <div class="product__img">
+                                            <img src="/storage/brandcollection_products/1495c05183368618.jpg" alt="">
+                                        </div>
+                                        <div class="product__name">Чёрный зонт-трость </div>
+                                        <div class="product__price">2 496 ₽</div>
+                                        <div class="product__art product__hidden">R8480AC589H</div>
+                                        <div class="product__description product__hidden">Фирменный чёрный зонт-трость с пластиковой ручкой с покрытием «soft-touch» Зонт для защиты от дождя имеет купол диаметром 112 см. Длина в закрытом состоянии — 89 см.</div>
+                                        <div class="product__material product__hidden">купол: 100% полиэстер эпонж; ручка: пластик; стержень: сталь, пластик</div>
+                                        <div class="product__size product__hidden">диаметр купола: 112; длина (в закрытом состоянии): 89</div>
+                                    </a>
+                                </li>
+                                <li class="new__item">
+                                    <a href="#" class="product" data-id="20">
+                                        <div class="product__img">
+                                            <img src="/storage/brandcollection_products/4655c050a73bae0b.jpg" alt="">
+                                        </div>
+                                        <div class="product__name">Мягкая игрушка Медведь </div>
+                                        <div class="product__price">1 254 ₽</div>
+                                        <div class="product__art product__hidden">R8480AC558H</div>
+                                        <div class="product__description product__hidden">Мягкая игрушка Медведь в толстовке с логотипом Hyundai изготовлена из безопасных экологических материалов.</div>
+                                        <div class="product__material product__hidden">искусственный мех, ткань, пластмасса, набивной материал</div>
+                                        <div class="product__size product__hidden">22*14*33</div>
+                                    </a>
+                                </li>
+                                <li class="new__item">
+                                    <a href="#" class="product" data-id="23">
+                                        <div class="product__img">
+                                            <img src="/storage/brandcollection_products/5055c050aace5be2.jpg" alt="">
+                                        </div>
+                                        <div class="product__name">Ежедневник</div>
+                                        <div class="product__price">1 108 ₽</div>
+                                        <div class="product__art product__hidden">R8480AC629H</div>
+                                        <div class="product__description product__hidden">Фирменный ежедневник формата А5. Книга для записей имеет обложку из искусственной кожи синего цвета с тиснёным логотипом Hyundai.</div>
+                                        <div class="product__material product__hidden">искусственная кожа</div>
+                                        <div class="product__size product__hidden">14,5*21</div>
+                                    </a>
+                                </li>
+                                <li class="new__item">
+                                    <a href="#" class="product" data-id="24">
+                                        <div class="product__img">
+                                            <img src="/storage/brandcollection_products/1705c050ab98572b.jpg" alt="">
+                                        </div>
+                                        <div class="product__name">Значок</div>
+                                        <div class="product__price">129 ₽</div>
+                                        <div class="product__art product__hidden">R8480AC563H</div>
+                                        <div class="product__description product__hidden">Металлический значок с рельефным логотипом Hyundai. Снабжён надежным приспособлением для крепления к одежде, сумке или рюкзаку.</div>
+                                        <div class="product__material product__hidden">металл</div>
+                                        <div class="product__size product__hidden">0,17*0,8*1</div>
+                                    </a>
+                                </li>
+                                <li class="new__item">
+                                    <a href="#" class="product" data-id="25">
+                                        <div class="product__img">
+                                            <img src="/storage/brandcollection_products/9925c050ac6440b3.jpg" alt="">
+                                        </div>
+                                        <div class="product__name">Термокружка Непроливайка</div>
+                                        <div class="product__price">1 758 ₽</div>
+                                        <div class="product__art product__hidden">R8480AC580H</div>
+                                        <div class="product__description product__hidden">Термокружка с устойчивым дном. Кружка из высококачественной нержавеющей стали покрыта белым пластиком и имеет специальное дно Lock Steady Bottom, которе обеспечивает повышенную устойчивость на любой плоской поверхности.</div>
+                                        <div class="product__material product__hidden">нержавеющая сталь, пластик</div>
+                                        <div class="product__size product__hidden">13,5*10*13,5</div>
+                                    </a>
+                                </li>
+                                <li class="new__item">
+                                    <a href="#" class="product" data-id="28">
+                                        <div class="product__img">
+                                            <img src="/storage/brandcollection_products/4615c050ae2d43c9.jpg" alt="">
+                                        </div>
+                                        <div class="product__name">Ручка синяя</div>
+                                        <div class="product__price">322 ₽</div>
+                                        <div class="product__art product__hidden">R8480AC587H</div>
+                                        <div class="product__description product__hidden">Шариковая ручка с синими чернилами. Фирменная металлическая ручка имеет синее покрытие «Soft-touch» с логотипом Hyundai.</div>
+                                        <div class="product__material product__hidden">металл; покрытие «Soft-touch»</div>
+                                        <div class="product__size product__hidden">13,8*1,2</div>
+                                    </a>
+                                </li>
+                                <li class="new__item">
+                                    <a href="#" class="product" data-id="30">
+                                        <div class="product__img">
+                                            <img src="/storage/brandcollection_products/5975c050afa73b1e.jpg" alt="">
+                                        </div>
+                                        <div class="product__name">Подушка синяя</div>
+                                        <div class="product__price">1 830 ₽</div>
+                                        <div class="product__art product__hidden">R8480AC576H</div>
+                                        <div class="product__description product__hidden">Декоративная подушка с логотипом Hyundai. Приятная на ощупь подушка из материала синего цвета пригодится как для украшения салона, так и для отдыха в поездке.</div>
+                                        <div class="product__material product__hidden">ультрамикрофибра</div>
+                                        <div class="product__size product__hidden">38*38</div>
+                                    </a>
+                                </li>
+                                <li class="new__item">
+                                    <a href="#" class="product" data-id="33">
+                                        <div class="product__img">
+                                            <img src="/storage/brandcollection_products/1685c050b23d5483.jpg" alt="">
+                                        </div>
+                                        <div class="product__name">Термос, 1л</div>
+                                        <div class="product__price">1 456 ₽</div>
+                                        <div class="product__art product__hidden">R8480AC534H</div>
+                                        <div class="product__description product__hidden">Практичный стальной термос объёмом 1 литр. Двойные вакуумные стенки позволяют сохранить температуру горячих и холодных продуктов.</div>
+                                        <div class="product__material product__hidden">нержавеющая сталь</div>
+                                        <div class="product__size product__hidden">8*8*32</div>
+                                    </a>
+                                </li>
+                                <li class="new__item">
+                                    <a href="#" class="product" data-id="36">
+                                        <div class="product__img">
+                                            <img src="/storage/brandcollection_products/3755bfea6e75e887.jpg" alt="">
+                                        </div>
+                                        <div class="product__name">Вешалка</div>
+                                        <div class="product__price">1 184 ₽</div>
+                                        <div class="product__art product__hidden">R8480AC570H</div>
+                                        <div class="product__description product__hidden">Съёмная вешалка для одежды изготовлена из хромированной стали и пластика. Легко устанавливается на опоры подголовника в автомобилях .</div>
+                                        <div class="product__material product__hidden">металл; пластмасса</div>
+                                        <div class="product__size product__hidden">45*16*22</div>
+                                    </a>
+                                </li>
                             </ul>
                             <a href="https://www.hyundai.ru/brand-collection/all" class="df-forward-link">
                                 Весь каталог
