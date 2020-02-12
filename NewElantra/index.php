@@ -4,88 +4,88 @@ $APPLICATION->SetPageProperty("title", "Выберите свою ELANTRA");
 $APPLICATION->SetTitle("Выберите свою ELANTRA");
 ?>
 
-    <content-data>
-        <div class="content">
+<content-data>
+    <div class="content">
 
-            <script src="https://api-maps.yandex.ru/2.1/?apikey=ffa519d3-303f-463c-afa2-29eec493cd33&lang=ru_RU" type="text/javascript"></script>
-            <section class="nav">
-                <ul class="nav__menu">
-                    <li class="nav__item">
-                        <a href="#design" class="nav__link scroll">
-                            Дизайн
-                        </a>
-                    </li>
-                    <li class="nav__item">
-                        <a href="#dynamics" class="nav__link scroll">
-                            Динамика
-                        </a>
-                    </li>
-                    <li class="nav__item">
-                        <a href="#comfort" class="nav__link scroll">
-                            Комфорт
-                        </a>
-                    </li>
-                    <li class="nav__item">
-                        <a href="#safety" class="nav__link scroll">
-                            Безопасность
-                        </a>
-                    </li>
-                    <li class="nav__item">
-                        <a href="#specs" class="nav__link scroll">
-                            Характеристики
-                        </a>
-                    </li>
-                    <li class="nav__item">
-                        <a target="_blank" href="https://www.hyundai.ru/NewElantra/gallery" class="nav__link">
-                            Галерея
-                        </a>
-                    </li>
-                </ul>
-                <div class="nav__buttons">
-                    <a target="_blank" href="/test-drive/Elantra" class="df-button nav__button js-open-p-td">
-                        Тест-драйв
+        <script src="https://api-maps.yandex.ru/2.1/?apikey=ffa519d3-303f-463c-afa2-29eec493cd33&lang=ru_RU" type="text/javascript"></script>
+        <section class="nav">
+            <ul class="nav__menu">
+                <li class="nav__item">
+                    <a href="#design" class="nav__link scroll">
+                        Дизайн
                     </a>
-                    <a target="_blank" href="/configurator/car/27" class="df-button nav__button">
-                        Конфигуратор
+                </li>
+                <li class="nav__item">
+                    <a href="#dynamics" class="nav__link scroll">
+                        Динамика
                     </a>
-                    <a target="_blank" href="/find-dealer" class="df-button nav__button">
-                        Найти дилера
+                </li>
+                <li class="nav__item">
+                    <a href="#comfort" class="nav__link scroll">
+                        Комфорт
                     </a>
-                </div>
-            </section>
+                </li>
+                <li class="nav__item">
+                    <a href="#safety" class="nav__link scroll">
+                        Безопасность
+                    </a>
+                </li>
+                <li class="nav__item">
+                    <a href="#specs" class="nav__link scroll">
+                        Характеристики
+                    </a>
+                </li>
+                <li class="nav__item">
+                    <a target="_blank" href="/NewElantra/gallery" class="nav__link">
+                        Галерея
+                    </a>
+                </li>
+            </ul>
+            <div class="nav__buttons">
+                <a target="_blank" href="/test-drive/Elantra" class="df-button nav__button js-open-p-td">
+                    Тест-драйв
+                </a>
+                <a target="_blank" href="/configurator/car/27" class="df-button nav__button">
+                    Конфигуратор
+                </a>
+                <a target="_blank" href="/find-dealer" class="df-button nav__button">
+                    Найти дилера
+                </a>
+            </div>
+        </section>
 
-            <section class="banner section section--big lazypreview lazyload" data-bgset="/images/cars/elantra/m_pics/title.jpg [(max-width: 640px)] | /images/cars/elantra/pics/title.jpg">
-                <div class="banner__head">
-                    <h1 class="banner__title">
-                        <span>Новая ELANTRA.</span>
-                    </h1>
-                    <div class="banner__subtitle h3">
-                        <span>Так устроен комфорт.</span>
-                    </div>
+        <section class="banner section section--big lazypreview lazyload" data-bgset="/images/cars/elantra/m_pics/title.jpg [(max-width: 640px)] | /images/cars/elantra/pics/title.jpg">
+            <div class="banner__head">
+                <h1 class="banner__title">
+                    <span>Новая ELANTRA.</span>
+                </h1>
+                <div class="banner__subtitle h3">
+                    <span>Так устроен комфорт.</span>
                 </div>
-                <div class="blue-label">
-                    <div class="blue-label__top">
-                        <span>от</span> <span id="price-from"></span> &#8381;
-                    </div>
-                    <hr>
-                    <div class="blue-label__bottom">
-                        В кредит — от <span id="credit-from"></span> ₽/мес
-                    </div>
+            </div>
+            <div class="blue-label">
+                <div class="blue-label__top">
+                    <span>от</span> <span id="price-from"></span> &#8381;
                 </div>
-                <a href="#view360" class="js-next-slide banner__circle scroll"></a>
-
-                <div id="hotbuttons">
-                    <!-- Установим активной модель. model Св-во codeName!!!!!! -->
-                    <hot-buttons :car-id="27" model="elantra" :buttons="[1,1,1]"></hot-buttons>
+                <hr>
+                <div class="blue-label__bottom">
+                    В кредит — от <span id="credit-from"></span> ₽/мес
                 </div>
-            </section>
+            </div>
+            <a href="#view360" class="js-next-slide banner__circle scroll"></a>
 
-            <section id="view360" class="section">
-                <view-360 title="Выбери свою ELANTRA" car-id="27"></view-360>
-            </section>
+            <div id="hotbuttons">
+                <!-- Установим активной модель. model Св-во codeName!!!!!! -->
+                <hot-buttons :car-id="27" model="elantra" :buttons="[1,1,1,1]" page="isModelPage"></hot-buttons>
+            </div>
+        </section>
 
-            <section id="design" class="design">
-                <presentation-section
+        <section id="view360" class="section">
+            <view-360 title="Выбери свою ELANTRA" car-id="27"></view-360>
+        </section>
+
+        <section id="design" class="design">
+            <presentation-section
                     title = 'Дерзкий<br>дизайн.'
                     background = '/images/cars/elantra/pics/title_design.jpg'
                     background-mobile = '/images/cars/elantra/m_pics/design_title.jpg'
@@ -124,173 +124,173 @@ $APPLICATION->SetTitle("Выберите свою ELANTRA");
 				}
 			}
 		]"
-                ></presentation-section>
-            </section>
+            ></presentation-section>
+        </section>
 
-            <section class="section s-parallax design design--2">
-                <div class="s-parallax__head">
-                    <h2>
+        <section class="section s-parallax design design--2">
+            <div class="s-parallax__head">
+                <h2>
             <span>
                 Дерзкий
                 <br>дизайн.
             </span>
-                    </h2>
-                </div>
-                <ul class="s-parallax__list s-parallax__list--left">
-                    <li class="s-parallax__item s-parallax__item--50 lazyload lazypreview" data-order="1" data-bgset="/images/cars/elantra/m_pics/design_4.jpg [(max-width: 640px)] | /images/cars/elantra/pics/design_1.jpg">
-                        <div class="s-parallax__description">
-                            <span>Электропривод складывания боковых зеркал</span> позволит не&nbsp;переживать о&nbsp;том, что их случайно заденут.
-                        </div>
-                    </li>
-                    <li class="s-parallax__item s-parallax__item--50 lazyload" data-order="2">
-                        <video class="s-parallax__video" autoplay muted loop data-object-fit="cover">
-                            <source data-src="/images/cars/elantra/video/01_design_led.mp4" type="video/mp4">
-                        </video>
-                        <div class="s-parallax__back lazyload lazypreview" data-bgset="/images/cars/elantra/m_pics/design_6.jpg">
-                        </div>
-                        <div class="s-parallax__description">
-                            <span>Светодиодные задние фонари</span> увеличивают видимость и&nbsp;покоряют своим внешним видом.
-                        </div>
-                    </li>
-                </ul>
-                <ul class="s-parallax__list s-parallax__list--right">
-                    <li class="s-parallax__item s-parallax__item--right s-parallax__item--100 lazyload lazypreview" data-order="3" data-bgset="/images/cars/elantra/m_pics/design_5.jpg [(max-width: 640px)] | /images/cars/elantra/pics/design_2.jpg">
-                        <div class="s-parallax__description">
-                            <span>Подсветка ручек двери</span> поможет открыть автомобиль ночью.
-                        </div>
-                    </li>
-                </ul>
-            </section>
+                </h2>
+            </div>
+            <ul class="s-parallax__list s-parallax__list--left">
+                <li class="s-parallax__item s-parallax__item--50 lazyload lazypreview" data-order="1" data-bgset="/images/cars/elantra/m_pics/design_4.jpg [(max-width: 640px)] | /images/cars/elantra/pics/design_1.jpg">
+                    <div class="s-parallax__description">
+                        <span>Электропривод складывания боковых зеркал</span> позволит не&nbsp;переживать о&nbsp;том, что их случайно заденут.
+                    </div>
+                </li>
+                <li class="s-parallax__item s-parallax__item--50 lazyload" data-order="2">
+                    <video class="s-parallax__video" autoplay muted loop data-object-fit="cover">
+                        <source data-src="/images/cars/elantra/video/01_design_led.mp4" type="video/mp4">
+                    </video>
+                    <div class="s-parallax__back lazyload lazypreview" data-bgset="/images/cars/elantra/m_pics/design_6.jpg">
+                    </div>
+                    <div class="s-parallax__description">
+                        <span>Светодиодные задние фонари</span> увеличивают видимость и&nbsp;покоряют своим внешним видом.
+                    </div>
+                </li>
+            </ul>
+            <ul class="s-parallax__list s-parallax__list--right">
+                <li class="s-parallax__item s-parallax__item--right s-parallax__item--100 lazyload lazypreview" data-order="3" data-bgset="/images/cars/elantra/m_pics/design_5.jpg [(max-width: 640px)] | /images/cars/elantra/pics/design_2.jpg">
+                    <div class="s-parallax__description">
+                        <span>Подсветка ручек двери</span> поможет открыть автомобиль ночью.
+                    </div>
+                </li>
+            </ul>
+        </section>
 
-            <section id="dynamics" class="section dynamics dynamics--1 view0">
-                <video class="dynamics__video" id="d-video1" preload="auto" loop muted data-object-fit="cover">
-                    <source data-src="/images/cars/elantra/video/02_performance.mp4" type="video/mp4">
-                </video>
-                <div class="dynamics__back lazyload lazypreview" data-bgset="/images/cars/elantra/m_pics/performance_1.jpg [(max-width: 640px)] | /images/cars/elantra/pics/performance_1.jpg"></div>
-                <!-- <div class="dynamics__back dynamics__back--view0 lazyload" data-bgset="/images/cars/elantra/m_pics/performance_slider_1.jpg [(max-width: 640px)] | /images/santaFe/tablet/performance_slider_1.jpg"></div>
-                <div class="dynamics__back dynamics__back--view1 lazyload" data-bgset="/images/cars/elantra/m_pics/performance_slider_2.jpg [(max-width: 640px)] | /images/santaFe/tablet/performance_slider_2.jpg"></div> -->
-                <div class="dynamics__head">
-                    <h2 class="dynamics__title">
+        <section id="dynamics" class="section dynamics dynamics--1 view0">
+            <video class="dynamics__video" id="d-video1" preload="auto" loop muted data-object-fit="cover">
+                <source data-src="/images/cars/elantra/video/02_performance.mp4" type="video/mp4">
+            </video>
+            <div class="dynamics__back lazyload lazypreview" data-bgset="/images/cars/elantra/m_pics/performance_1.jpg [(max-width: 640px)] | /images/cars/elantra/pics/performance_1.jpg"></div>
+            <!-- <div class="dynamics__back dynamics__back--view0 lazyload" data-bgset="/images/cars/elantra/m_pics/performance_slider_1.jpg [(max-width: 640px)] | /images/santaFe/tablet/performance_slider_1.jpg"></div>
+            <div class="dynamics__back dynamics__back--view1 lazyload" data-bgset="/images/cars/elantra/m_pics/performance_slider_2.jpg [(max-width: 640px)] | /images/santaFe/tablet/performance_slider_2.jpg"></div> -->
+            <div class="dynamics__head">
+                <h2 class="dynamics__title">
             <span>
                 Великолепная
                 <br>динамика.
             </span>
-                    </h2>
-                    <div class="dynamics__wrap">
-                        <ul class="dynamics__tabs">
-                            <li class="dynamics__tab">
-                                <a data-view="view0" href="#" class="dynamics__link js-change-view active">
-                                    1.6 MPI
-                                </a>
-                            </li>
-                            <li class="dynamics__tab">
-                                <a data-view="view1" href="#" class="dynamics__link js-change-view">
-                                    2.0 MPI
-                                </a>
-                            </li>
-                        </ul>
+                </h2>
+                <div class="dynamics__wrap">
+                    <ul class="dynamics__tabs">
+                        <li class="dynamics__tab">
+                            <a data-view="view0" href="#" class="dynamics__link js-change-view active">
+                                1.6 MPI
+                            </a>
+                        </li>
+                        <li class="dynamics__tab">
+                            <a data-view="view1" href="#" class="dynamics__link js-change-view">
+                                2.0 MPI
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <ul class="dynamics__specs dynamics__specs--0">
+                <li class="dynamics__spec">
+                    <div class="dynamics__specs-w dynamics__specs-w--0">
+                        <div class="dynamics__description">
+                            <span id="count1"></span> л.с.
+                        </div>
+                        <div class="dynamics__text">
+                            Максимальная мощность
+                        </div>
                     </div>
-                </div>
-                <ul class="dynamics__specs dynamics__specs--0">
-                    <li class="dynamics__spec">
-                        <div class="dynamics__specs-w dynamics__specs-w--0">
-                            <div class="dynamics__description">
-                                <span id="count1"></span> л.с.
-                            </div>
-                            <div class="dynamics__text">
-                                Максимальная мощность
-                            </div>
+                </li>
+                <li class="dynamics__spec">
+                    <div class="dynamics__specs-w dynamics__specs-w--1">
+                        <div class="dynamics__description">
+                            <span id="count2"></span>.1 сек
                         </div>
-                    </li>
-                    <li class="dynamics__spec">
-                        <div class="dynamics__specs-w dynamics__specs-w--1">
-                            <div class="dynamics__description">
-                                <span id="count2"></span>.1 сек
-                            </div>
-                            <div class="dynamics__text">
-                                Разгон до 100 км/ч
-                            </div>
+                        <div class="dynamics__text">
+                            Разгон до 100 км/ч
                         </div>
-                    </li>
-                    <li class="dynamics__spec">
-                        <div class="dynamics__specs-w dynamics__specs-w--2">
-                            <div class="dynamics__description">
-                                6.5 л / 100 км
-                            </div>
-                            <div class="dynamics__text">
-                                Средний расход топлива
-                            </div>
+                    </div>
+                </li>
+                <li class="dynamics__spec">
+                    <div class="dynamics__specs-w dynamics__specs-w--2">
+                        <div class="dynamics__description">
+                            6.5 л / 100 км
                         </div>
-                    </li>
-                </ul>
-                <ul class="dynamics__specs dynamics__specs--1">
-                    <li class="dynamics__spec">
-                        <div class="dynamics__specs-w dynamics__specs-w--0">
-                            <div class="dynamics__description">
-                                <span id="count3"></span> л.с.
-                            </div>
-                            <div class="dynamics__text">
-                                Максимальная мощность
-                            </div>
+                        <div class="dynamics__text">
+                            Средний расход топлива
                         </div>
-                    </li>
-                    <li class="dynamics__spec">
-                        <div class="dynamics__specs-w dynamics__specs-w--1">
-                            <div class="dynamics__description">
-                                <span id="count4"></span>.8 сек
-                            </div>
-                            <div class="dynamics__text">
-                                Разгон до 100 км/ч
-                            </div>
+                    </div>
+                </li>
+            </ul>
+            <ul class="dynamics__specs dynamics__specs--1">
+                <li class="dynamics__spec">
+                    <div class="dynamics__specs-w dynamics__specs-w--0">
+                        <div class="dynamics__description">
+                            <span id="count3"></span> л.с.
                         </div>
-                    </li>
-                    <li class="dynamics__spec">
-                        <div class="dynamics__specs-w dynamics__specs-w--2">
-                            <div class="dynamics__description">
-                                7.0 л / 100 км
-                            </div>
-                            <div class="dynamics__text">
-                                Средний расход топлива
-                            </div>
+                        <div class="dynamics__text">
+                            Максимальная мощность
                         </div>
-                    </li>
-                </ul>
-                <div class="dynamics__graph dynamics__graph--0">
-                    <img src="/images/cars/elantra/pics/engine_1.png">
-                </div>
-                <div class="dynamics__graph dynamics__graph--1">
-                    <img src="/images/cars/elantra/pics/engine_2.png">
-                </div>
-            </section>
+                    </div>
+                </li>
+                <li class="dynamics__spec">
+                    <div class="dynamics__specs-w dynamics__specs-w--1">
+                        <div class="dynamics__description">
+                            <span id="count4"></span>.8 сек
+                        </div>
+                        <div class="dynamics__text">
+                            Разгон до 100 км/ч
+                        </div>
+                    </div>
+                </li>
+                <li class="dynamics__spec">
+                    <div class="dynamics__specs-w dynamics__specs-w--2">
+                        <div class="dynamics__description">
+                            7.0 л / 100 км
+                        </div>
+                        <div class="dynamics__text">
+                            Средний расход топлива
+                        </div>
+                    </div>
+                </li>
+            </ul>
+            <div class="dynamics__graph dynamics__graph--0">
+                <img src="/images/cars/elantra/pics/engine_1.png">
+            </div>
+            <div class="dynamics__graph dynamics__graph--1">
+                <img src="/images/cars/elantra/pics/engine_2.png">
+            </div>
+        </section>
 
-            <section class="section dynamics dynamics--2">
-                <div data-bgset="/images/cars/elantra/m_pics/performance_3a.jpg [(max-width: 640px)] | /images/cars/elantra/pics/performance_2a.jpg" class="s-parallax__bg0 lazyload lazypreview"></div>
-                <div data-bgset="/images/cars/elantra/m_pics/performance_3b.jpg [(max-width: 640px)] | /images/cars/elantra/pics/performance_2b.jpg" class="s-parallax__bg lazyload lazypreview"></div>
-                <div class="dynamics__head">
-                    <h2 class="dynamics__title dynamics__title--small">
+        <section class="section dynamics dynamics--2">
+            <div data-bgset="/images/cars/elantra/m_pics/performance_3a.jpg [(max-width: 640px)] | /images/cars/elantra/pics/performance_2a.jpg" class="s-parallax__bg0 lazyload lazypreview"></div>
+            <div data-bgset="/images/cars/elantra/m_pics/performance_3b.jpg [(max-width: 640px)] | /images/cars/elantra/pics/performance_2b.jpg" class="s-parallax__bg lazyload lazypreview"></div>
+            <div class="dynamics__head">
+                <h2 class="dynamics__title dynamics__title--small">
             <span>
                 Великолепная
                 <br>динамика.
             </span>
-                    </h2>
+                </h2>
+            </div>
+            <div class="d-composition">
+                <div class="d-composition__icon">
+                    <img src="/images/cars/elantra/svg/performance.svg">
                 </div>
-                <div class="d-composition">
-                    <div class="d-composition__icon">
-                        <img src="/images/cars/elantra/svg/performance.svg">
-                    </div>
-                    <div class="d-composition__title">
-                        6-ступенчатая<br> АКПП и МКПП.
-                    </div>
-                    <div class="d-composition__description">
-                        Неудержимая мощь, помноженная
-                        на&nbsp;жгучий темперамент,&nbsp;— вот абсолютная формула скорости. Новая ELANTRA исполняет самые дерзкие желания,
-                        чтобы разбудить новые.
-                    </div>
+                <div class="d-composition__title">
+                    6-ступенчатая<br> АКПП и МКПП.
                 </div>
-            </section>
+                <div class="d-composition__description">
+                    Неудержимая мощь, помноженная
+                    на&nbsp;жгучий темперамент,&nbsp;— вот абсолютная формула скорости. Новая ELANTRA исполняет самые дерзкие желания,
+                    чтобы разбудить новые.
+                </div>
+            </div>
+        </section>
 
-            <section id="comfort" class="comfort">
-                <presentation-section
+        <section id="comfort" class="comfort">
+            <presentation-section
                     title = 'Настоящий<br>комфорт.'
                     background = '/images/cars/elantra/pics/title_comfort.jpg'
                     background-mobile = '/images/cars/elantra/m_pics/comfort_title.jpg'
@@ -344,281 +344,296 @@ $APPLICATION->SetTitle("Выберите свою ELANTRA");
                 }
             }
         ]"
-                ></presentation-section>
-            </section>
+            ></presentation-section>
+        </section>
 
-            <section class="comfort section s-parallax">
-                <div class="s-parallax__head">
-                    <h2>
+        <section class="comfort section s-parallax">
+            <div class="s-parallax__head">
+                <h2>
             <span>
                 Настоящий
                 <br>комфорт.
             </span>
-                    </h2>
-                </div>
-                <ul class="s-parallax__list s-parallax__list--left">
-                    <li class="s-parallax__item s-parallax__item--50 lazyload lazypreview" data-order="1" data-bgset="/images/cars/elantra/m_pics/comfort_4.jpg [(max-width: 640px)] | /images/cars/elantra/pics/comfort_1.jpg">
-                        <video class="s-parallax__video" autoplay muted loop data-object-fit="cover">
-                            <source data-src="/images/cars/elantra/video/03_comfort_warmers.mp4" type="video/mp4">
-                        </video>
-                        <div class="s-parallax__back lazyload lazypreview" data-bgset="/images/cars/elantra/m_pics/comfort_4.jpg">
-                        </div>
-                        <div class="s-parallax__description">
-                            В&nbsp;новой ELANTRA прохладно летом и&nbsp;тепло зимой, об&nbsp;этом заботятся <span>вентиляция и&nbsp;подогрев сидений.</span>
-                        </div>
-                    </li>
-                    <li class="s-parallax__item s-parallax__item--50 lazyload lazypreview" data-order="3" data-bgset="/images/cars/elantra/m_pics/comfort_6.jpg [(max-width: 640px)] | /images/cars/elantra/pics/comfort_3.jpg">
-                        <div class="s-parallax__description">
-                            <span>Подогрев руля</span> сделает комфортным вождение в&nbsp;морозную погоду.
-                        </div>
-                    </li>
-                    <li class="s-parallax__item s-parallax__item--50 lazyload lazypreview" data-order="5" data-bgset="/images/cars/elantra/m_pics/comfort_8.jpg [(max-width: 640px)] | /images/cars/elantra/pics/comfort_5.jpg">
-                        <div class="s-parallax__description">
-                            Вождение станет более комфортным и&nbsp;безопасным с&nbsp;<span>самозатемняющимся внутрисалонным зеркалом.</span>
-                        </div>
-                    </li>
-                </ul>
-                <ul class="s-parallax__list s-parallax__list--right">
-                    <li class="s-parallax__item s-parallax__item--right s-parallax__item--50 lazyload lazypreview" data-order="2" data-bgset="/images/cars/elantra/m_pics/comfort_5.jpg [(max-width: 640px)] | /images/cars/elantra/pics/comfort_2.jpg">
-                        <div class="s-parallax__description">
-                            <span>Сохранение настроек сиденья водителя и&nbsp;боковых зеркал</span>&nbsp;—
-                            новая ELANTRA радушно встретит вас каждый раз!
-                        </div>
-                    </li>
-                    <li class="s-parallax__item s-parallax__item--right s-parallax__item--50 lazyload lazypreview" data-order="6" data-bgset="/images/cars/elantra/m_pics/comfort_7.jpg [(max-width: 640px)] | /images/cars/elantra/pics/comfort_4.jpg">
-                        <video class="s-parallax__video" autoplay muted loop data-object-fit="cover">
-                            <source data-src="/images/cars/elantra/video/04_comfort_charger.mp4" type="video/mp4">
-                        </video>
-                        <div class="s-parallax__back lazyload lazypreview" data-bgset="/images/cars/elantra/m_pics/comfort_7.jpg">
-                        </div>
-                        <div class="s-parallax__description">
-                            <span>Беспроводное зарядное устройство</span> стандарта Qi позволит зарядить ваш смартфон в&nbsp;любой момент.
-                        </div>
-                    </li>
-                </ul>
-            </section>
+                </h2>
+            </div>
+            <ul class="s-parallax__list s-parallax__list--left">
+                <li class="s-parallax__item s-parallax__item--50 lazyload lazypreview" data-order="1" data-bgset="/images/cars/elantra/m_pics/comfort_4.jpg [(max-width: 640px)] | /images/cars/elantra/pics/comfort_1.jpg">
+                    <video class="s-parallax__video" autoplay muted loop data-object-fit="cover">
+                        <source data-src="/images/cars/elantra/video/03_comfort_warmers.mp4" type="video/mp4">
+                    </video>
+                    <div class="s-parallax__back lazyload lazypreview" data-bgset="/images/cars/elantra/m_pics/comfort_4.jpg">
+                    </div>
+                    <div class="s-parallax__description">
+                        В&nbsp;новой ELANTRA прохладно летом и&nbsp;тепло зимой, об&nbsp;этом заботятся <span>вентиляция и&nbsp;подогрев сидений.</span>
+                    </div>
+                </li>
+                <li class="s-parallax__item s-parallax__item--50 lazyload lazypreview" data-order="3" data-bgset="/images/cars/elantra/m_pics/comfort_6.jpg [(max-width: 640px)] | /images/cars/elantra/pics/comfort_3.jpg">
+                    <div class="s-parallax__description">
+                        <span>Подогрев руля</span> сделает комфортным вождение в&nbsp;морозную погоду.
+                    </div>
+                </li>
+                <li class="s-parallax__item s-parallax__item--50 lazyload lazypreview" data-order="5" data-bgset="/images/cars/elantra/m_pics/comfort_8.jpg [(max-width: 640px)] | /images/cars/elantra/pics/comfort_5.jpg">
+                    <div class="s-parallax__description">
+                        Вождение станет более комфортным и&nbsp;безопасным с&nbsp;<span>самозатемняющимся внутрисалонным зеркалом.</span>
+                    </div>
+                </li>
+            </ul>
+            <ul class="s-parallax__list s-parallax__list--right">
+                <li class="s-parallax__item s-parallax__item--right s-parallax__item--50 lazyload lazypreview" data-order="2" data-bgset="/images/cars/elantra/m_pics/comfort_5.jpg [(max-width: 640px)] | /images/cars/elantra/pics/comfort_2.jpg">
+                    <div class="s-parallax__description">
+                        <span>Сохранение настроек сиденья водителя и&nbsp;боковых зеркал</span>&nbsp;—
+                        новая ELANTRA радушно встретит вас каждый раз!
+                    </div>
+                </li>
+                <li class="s-parallax__item s-parallax__item--right s-parallax__item--50 lazyload lazypreview" data-order="6" data-bgset="/images/cars/elantra/m_pics/comfort_7.jpg [(max-width: 640px)] | /images/cars/elantra/pics/comfort_4.jpg">
+                    <video class="s-parallax__video" autoplay muted loop data-object-fit="cover">
+                        <source data-src="/images/cars/elantra/video/04_comfort_charger.mp4" type="video/mp4">
+                    </video>
+                    <div class="s-parallax__back lazyload lazypreview" data-bgset="/images/cars/elantra/m_pics/comfort_7.jpg">
+                    </div>
+                    <div class="s-parallax__description">
+                        <span>Беспроводное зарядное устройство</span> стандарта Qi позволит зарядить ваш смартфон в&nbsp;любой момент.
+                    </div>
+                </li>
+            </ul>
+        </section>
 
-            <section id="safety" class="section safety safety--1">
-                <div class="safety__head">
-                    <h2 class="safety__main">
+        <section id="safety" class="section safety safety--1">
+            <div class="safety__head">
+                <h2 class="safety__main">
             <span>
                 Технологии
                 <br>безопасности.
             </span>
-                    </h2>
-                </div>
-                <div class="safety__circles">
-                    <div class="safety__circle1"></div>
-                    <div class="safety__circle2"></div>
-                </div>
-                <div data-bgset="/images/cars/elantra/pics/angle_1.png" class="safety__back safety__back--1 lazyload lazypreview"></div>
-            </section>
+                </h2>
+            </div>
+            <div class="safety__circles">
+                <div class="safety__circle1"></div>
+                <div class="safety__circle2"></div>
+            </div>
+            <div data-bgset="/images/cars/elantra/pics/angle_1.png" class="safety__back safety__back--1 lazyload lazypreview"></div>
+        </section>
 
-            <section class="section safety safety--2">
-                <div class="safety__head">
-                    <h2 class="safety__main safety__main--small safety__main--on">
+        <section class="section safety safety--2">
+            <div class="safety__head">
+                <h2 class="safety__main safety__main--small safety__main--on">
             <span>
                 Технологии
                 <br>безопасности.
             </span>
-                    </h2>
-                </div>
-                <div data-bgset="/images/cars/elantra/pics/angle_2.png" class="safety__back safety__back--2 lazyload lazypreview">
-                    <div class="marker marker--2">
-                        <div class="marker__circle1"></div>
-                        <div class="marker__circle2"></div>
-                        <div class="marker__center">
-                            <div class="marker__composition">
-                                <img src="/images/cars/elantra/svg/tech_1.svg">
-                                <div class="marker__text">
-                                    Звуковой
-                                    <br>сигнал
-                                </div>
+                </h2>
+            </div>
+            <div data-bgset="/images/cars/elantra/pics/angle_2.png" class="safety__back safety__back--2 lazyload lazypreview">
+                <div class="marker marker--2">
+                    <div class="marker__circle1"></div>
+                    <div class="marker__circle2"></div>
+                    <div class="marker__center">
+                        <div class="marker__composition">
+                            <img src="/images/cars/elantra/svg/tech_1.svg">
+                            <div class="marker__text">
+                                Звуковой
+                                <br>сигнал
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="s-beep">
-                    <div class="schema">
-                        <img data-src="/images/cars/elantra/pics/tech_scheme_1.jpg" alt="">
-                    </div>
+            </div>
+            <div class="s-beep">
+                <div class="schema">
+                    <img data-src="/images/cars/elantra/pics/tech_scheme_1.jpg" alt="">
+                </div>
+                <div class="safety__title">
+                    Система помощи при&nbsp;парковке.
+                </div>
+                <div class="safety__text">
+                    Своевременно предупреждает о&nbsp;приближении к&nbsp;препятствию, повышая безопасность манёвра.
+                </div>
+            </div>
+        </section>
+
+        <section class="section safety safety--3">
+            <div class="safety__head">
+                <h2 class="safety__main safety__main--small safety__main--on">
+            <span>
+                Технологии
+                <br>безопасности.
+            </span>
+                </h2>
+            </div>
+            <div class="s-exit">
+                <div class="s-exit__circle1"></div>
+                <div class="s-exit__circle2"></div>
+                <div class="s-exit__center">
+                    <video class="s-exit__video" autoplay muted loop data-object-fit="cover">
+                        <source data-src="/images/cars/elantra/video/05_tech_cam.mp4" type="video/mp4">
+                    </video>
+                </div>
+                <div class="s-exit__description">
                     <div class="safety__title">
-                        Система помощи при&nbsp;парковке.
+                        Камера заднего вида.
                     </div>
                     <div class="safety__text">
-                        Своевременно предупреждает о&nbsp;приближении к&nbsp;препятствию, повышая безопасность манёвра.
+                        Помогает водителю полностью контролировать ситуацию во время парковки.
                     </div>
                 </div>
-            </section>
-
-            <section class="section safety safety--3">
-                <div class="safety__head">
-                    <h2 class="safety__main safety__main--small safety__main--on">
-            <span>
-                Технологии
-                <br>безопасности.
-            </span>
-                    </h2>
-                </div>
-                <div class="s-exit">
-                    <div class="s-exit__circle1"></div>
-                    <div class="s-exit__circle2"></div>
-                    <div class="s-exit__center">
-                        <video class="s-exit__video" autoplay muted loop data-object-fit="cover">
-                            <source data-src="/images/cars/elantra/video/05_tech_cam.mp4" type="video/mp4">
-                        </video>
-                    </div>
-                    <div class="s-exit__description">
-                        <div class="safety__title">
-                            Камера заднего вида.
-                        </div>
-                        <div class="safety__text">
-                            Помогает водителю полностью контролировать ситуацию во время парковки.
-                        </div>
-                    </div>
-                </div>
-                <div data-bg="/images/cars/elantra/pics/angle_3.png" class="safety__back safety__back--3">
-                    <div class="marker marker--3">
-                        <div class="marker__circle1"></div>
-                        <div class="marker__circle2"></div>
-                        <div class="marker__center">
-                            <div class="marker__composition">
-                                <img src="/images/cars/elantra/svg/tech_2.svg">
-                                <div class="marker__text">
-                                    Передача
-                                    <br>видео
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-
-            <section class="safety section safety--4">
-                <div class="safety__head">
-                    <h2 class="safety__main safety__main--small safety__main--on">
-            <span>
-                Технологии
-                <br>безопасности.
-            </span>
-                    </h2>
-                </div>
-                <div class="s-back">
-                    <div class="s-back__img">
-                        <img data-src="/images/cars/elantra/pics/tech/tech_scheme_3_1.jpg" alt="">
-                        <img class="schema__animate" data-src="/images/cars/elantra/pics/tech/tech_scheme_3_2.jpg" alt="">
-                        <img class="schema__animate" data-src="/images/cars/elantra/pics/tech/tech_scheme_3_3.jpg" alt="">
-                        <img class="schema__animate" data-src="/images/cars/elantra/pics/tech/tech_scheme_3_4.jpg" alt="">
-                        <img class="schema__animate" data-src="/images/cars/elantra/pics/tech/tech_scheme_3_5.jpg" alt="">
-                        <img class="schema__animate" data-src="/images/cars/elantra/pics/tech/tech_scheme_3_6.jpg" alt="">
-                        <img class="schema__animate" data-src="/images/cars/elantra/pics/tech/tech_scheme_3_7.jpg" alt="">
-                        <img class="schema__animate" data-src="/images/cars/elantra/pics/tech/tech_scheme_3_8.jpg" alt="">
-                        <img class="schema__animate" data-src="/images/cars/elantra/pics/tech/tech_scheme_3_9.jpg" alt="">
-                        <img class="schema__animate" data-src="/images/cars/elantra/pics/tech/tech_scheme_3_10.jpg" alt="">
-                        <img class="schema__animate" data-src="/images/cars/elantra/pics/tech/tech_scheme_3_11.jpg" alt="">
-                        <img class="schema__animate" data-src="/images/cars/elantra/pics/tech/tech_scheme_3_12.jpg" alt="">
-                        <img class="schema__animate" data-src="/images/cars/elantra/pics/tech/tech_scheme_3_13.jpg" alt="">
-                        <img class="schema__animate" data-src="/images/cars/elantra/pics/tech/tech_scheme_3_14.jpg" alt="">
-                        <img class="schema__animate" data-src="/images/cars/elantra/pics/tech/tech_scheme_3_15.jpg" alt="">
-                        <img class="schema__animate" data-src="/images/cars/elantra/pics/tech/tech_scheme_3_16.jpg" alt="">
-                        <img class="schema__animate" data-src="/images/cars/elantra/pics/tech/tech_scheme_3_17.jpg" alt="">
-                        <img class="schema__animate" data-src="/images/cars/elantra/pics/tech/tech_scheme_3_18.jpg" alt="">
-                        <img class="schema__animate" data-src="/images/cars/elantra/pics/tech/tech_scheme_3_19.jpg" alt="">
-                        <img class="schema__animate" data-src="/images/cars/elantra/pics/tech/tech_scheme_3_20.jpg" alt="">
-                        <img class="schema__animate" data-src="/images/cars/elantra/pics/tech/tech_scheme_3_21.jpg" alt="">
-                        <img class="schema__animate" data-src="/images/cars/elantra/pics/tech/tech_scheme_3_22.jpg" alt="">
-                        <img class="schema__animate" data-src="/images/cars/elantra/pics/tech/tech_scheme_3_23.jpg" alt="">
-                        <img class="schema__animate" data-src="/images/cars/elantra/pics/tech/tech_scheme_3_24.jpg" alt="">
-                        <img class="schema__animate" data-src="/images/cars/elantra/pics/tech/tech_scheme_3_25.jpg" alt="">
-                        <img class="schema__animate" data-src="/images/cars/elantra/pics/tech/tech_scheme_3_26.jpg" alt="">
-                    </div>
-                    <div class="s-back__description">
-                        <div class="safety__title">
-                            Система мониторинга «слепых» зон.
-                        </div>
-                        <div class="safety__text">
-                            Менять полосу безопасно&nbsp;— система предупреждает водителя об&nbsp;автомобиле в&nbsp;«слепой» зоне.
-                        </div>
-                    </div>
-                </div>
-                <div data-bgset="/images/cars/elantra/pics/angle_4.png" class="lazyload safety__back safety__back--4 lazypreview">
-                    <div class="marker marker--4">
-                        <div class="marker__circle1"></div>
-                        <div class="marker__circle2"></div>
-                        <div class="marker__center">
-                            <div class="marker__composition">
-                                <img src="/images/cars/elantra/svg/tech_3.svg">
-                                <div class="marker__text">
-                                    Датчик
-                                    <br>движения
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-
-            <section class="section s-parallax safety safety--5">
-                <div class="safety__head">
-                    <h2 class="safety__main safety__main--small safety__main--on">
-            <span>
-                Технологии
-                <br>безопасности.
-            </span>
-                    </h2>
-                </div>
-                <ul class="s-parallax__list s-parallax__list--left">
-                    <li class="s-parallax__item s-parallax__item--50 lazyload" data-order="1">
-                        <video class="s-parallax__video" autoplay muted loop data-object-fit="cover">
-                            <source data-src="/images/cars/elantra/video/06_tech_trunk.mp4" type="video/mp4">
-                        </video>
-                        <div class="s-parallax__back lazyload lazypreview" data-bgset="/images/cars/elantra/m_pics/tech_4.jpg">
-                        </div>
-                        <div class="s-parallax__description">
-                            <span>Интеллектуальная система открывания багажника</span> позволит погрузить вещи, если у&nbsp;вас заняты руки.
-                        </div>
-                    </li>
-                    <li class="s-parallax__item s-parallax__item--100 lazyload lazypreview" data-order="3" data-bgset="/images/cars/elantra/m_pics/tech_6.jpg [(max-width: 640px)] | /images/cars/elantra/pics/tech_3.jpg">
-                        <div class="s-parallax__description">
-                            <span>Система подушек безопасности</span> система предупреждения водителя с&nbsp;дополнительной подушкой безопасности для&nbsp;защиты ног водителя.
-                        </div>
-                    </li>
-                </ul>
-                <ul class="s-parallax__list s-parallax__list--right">
-                    <li class="s-parallax__item s-parallax__item--right s-parallax__item--100 lazyload" data-order="2">
-                        <video class="s-parallax__video" autoplay muted loop data-object-fit="cover">
-                            <source data-src="/images/cars/elantra/video/07_tech_ahss.mp4" type="video/mp4">
-                        </video>
-                        <div class="s-parallax__back lazyload lazypreview" data-bgset="/images/cars/elantra/m_pics/tech_5.jpg">
-                        </div>
-                        <div class="s-parallax__description s-parallax__description--black">
-                            <span>Стальной корпус повышенной жесткости</span> обеспечивает надёжную защиту для водителя и пассажиров.
-                        </div>
-                    </li>
-                    <li class="s-parallax__item s-parallax__item--right s-parallax__item--50 lazyload lazypreview" data-order="4" data-bgset="/images/cars/elantra/m_pics/tech_7.jpg [(max-width: 640px)] | /images/cars/elantra/pics/tech_4.jpg">
-                        <div class="s-parallax__description">
-                            <span>Безопасные стеклоподъёмники</span> опускают стекло на&nbsp;15&nbsp;сантиметров, если в&nbsp;проёме обнаружен объект.
-                        </div>
-                    </li>
-                </ul>
-            </section>
-
-            <section id="specs">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-12">
-                            <specs-section car-id="27" model-type="Седан" number-of-seats="5" engine="Бензиновый" drive="Передний" gear-box="Автоматическая / Механическая"></specs-section>
-                        </div>
-                    </div>
-                </div>
-            </section>
-
-            <div id="tdpopup">
-                <sign-up-test-drive-form-popup v-if="isVisible" page="isModelPage"></sign-up-test-drive-form-popup>
             </div>
+            <div data-bg="/images/cars/elantra/pics/angle_3.png" class="safety__back safety__back--3">
+                <div class="marker marker--3">
+                    <div class="marker__circle1"></div>
+                    <div class="marker__circle2"></div>
+                    <div class="marker__center">
+                        <div class="marker__composition">
+                            <img src="/images/cars/elantra/svg/tech_2.svg">
+                            <div class="marker__text">
+                                Передача
+                                <br>видео
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
 
-        </div>
-    </content-data>
+        <section class="safety section safety--4">
+            <div class="safety__head">
+                <h2 class="safety__main safety__main--small safety__main--on">
+            <span>
+                Технологии
+                <br>безопасности.
+            </span>
+                </h2>
+            </div>
+            <div class="s-back">
+                <div class="s-back__img">
+                    <img data-src="/images/cars/elantra/pics/tech/tech_scheme_3_1.jpg" alt="">
+                    <img class="schema__animate" data-src="/images/cars/elantra/pics/tech/tech_scheme_3_2.jpg" alt="">
+                    <img class="schema__animate" data-src="/images/cars/elantra/pics/tech/tech_scheme_3_3.jpg" alt="">
+                    <img class="schema__animate" data-src="/images/cars/elantra/pics/tech/tech_scheme_3_4.jpg" alt="">
+                    <img class="schema__animate" data-src="/images/cars/elantra/pics/tech/tech_scheme_3_5.jpg" alt="">
+                    <img class="schema__animate" data-src="/images/cars/elantra/pics/tech/tech_scheme_3_6.jpg" alt="">
+                    <img class="schema__animate" data-src="/images/cars/elantra/pics/tech/tech_scheme_3_7.jpg" alt="">
+                    <img class="schema__animate" data-src="/images/cars/elantra/pics/tech/tech_scheme_3_8.jpg" alt="">
+                    <img class="schema__animate" data-src="/images/cars/elantra/pics/tech/tech_scheme_3_9.jpg" alt="">
+                    <img class="schema__animate" data-src="/images/cars/elantra/pics/tech/tech_scheme_3_10.jpg" alt="">
+                    <img class="schema__animate" data-src="/images/cars/elantra/pics/tech/tech_scheme_3_11.jpg" alt="">
+                    <img class="schema__animate" data-src="/images/cars/elantra/pics/tech/tech_scheme_3_12.jpg" alt="">
+                    <img class="schema__animate" data-src="/images/cars/elantra/pics/tech/tech_scheme_3_13.jpg" alt="">
+                    <img class="schema__animate" data-src="/images/cars/elantra/pics/tech/tech_scheme_3_14.jpg" alt="">
+                    <img class="schema__animate" data-src="/images/cars/elantra/pics/tech/tech_scheme_3_15.jpg" alt="">
+                    <img class="schema__animate" data-src="/images/cars/elantra/pics/tech/tech_scheme_3_16.jpg" alt="">
+                    <img class="schema__animate" data-src="/images/cars/elantra/pics/tech/tech_scheme_3_17.jpg" alt="">
+                    <img class="schema__animate" data-src="/images/cars/elantra/pics/tech/tech_scheme_3_18.jpg" alt="">
+                    <img class="schema__animate" data-src="/images/cars/elantra/pics/tech/tech_scheme_3_19.jpg" alt="">
+                    <img class="schema__animate" data-src="/images/cars/elantra/pics/tech/tech_scheme_3_20.jpg" alt="">
+                    <img class="schema__animate" data-src="/images/cars/elantra/pics/tech/tech_scheme_3_21.jpg" alt="">
+                    <img class="schema__animate" data-src="/images/cars/elantra/pics/tech/tech_scheme_3_22.jpg" alt="">
+                    <img class="schema__animate" data-src="/images/cars/elantra/pics/tech/tech_scheme_3_23.jpg" alt="">
+                    <img class="schema__animate" data-src="/images/cars/elantra/pics/tech/tech_scheme_3_24.jpg" alt="">
+                    <img class="schema__animate" data-src="/images/cars/elantra/pics/tech/tech_scheme_3_25.jpg" alt="">
+                    <img class="schema__animate" data-src="/images/cars/elantra/pics/tech/tech_scheme_3_26.jpg" alt="">
+                </div>
+                <div class="s-back__description">
+                    <div class="safety__title">
+                        Система мониторинга «слепых» зон.
+                    </div>
+                    <div class="safety__text">
+                        Менять полосу безопасно&nbsp;— система предупреждает водителя об&nbsp;автомобиле в&nbsp;«слепой» зоне.
+                    </div>
+                </div>
+            </div>
+            <div data-bgset="/images/cars/elantra/pics/angle_4.png" class="lazyload safety__back safety__back--4 lazypreview">
+                <div class="marker marker--4">
+                    <div class="marker__circle1"></div>
+                    <div class="marker__circle2"></div>
+                    <div class="marker__center">
+                        <div class="marker__composition">
+                            <img src="/images/cars/elantra/svg/tech_3.svg">
+                            <div class="marker__text">
+                                Датчик
+                                <br>движения
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
 
+        <section class="section s-parallax safety safety--5">
+            <div class="safety__head">
+                <h2 class="safety__main safety__main--small safety__main--on">
+            <span>
+                Технологии
+                <br>безопасности.
+            </span>
+                </h2>
+            </div>
+            <ul class="s-parallax__list s-parallax__list--left">
+                <li class="s-parallax__item s-parallax__item--50 lazyload" data-order="1">
+                    <video class="s-parallax__video" autoplay muted loop data-object-fit="cover">
+                        <source data-src="/images/cars/elantra/video/06_tech_trunk.mp4" type="video/mp4">
+                    </video>
+                    <div class="s-parallax__back lazyload lazypreview" data-bgset="/images/cars/elantra/m_pics/tech_4.jpg">
+                    </div>
+                    <div class="s-parallax__description">
+                        <span>Интеллектуальная система открывания багажника</span> позволит погрузить вещи, если у&nbsp;вас заняты руки.
+                    </div>
+                </li>
+                <li class="s-parallax__item s-parallax__item--100 lazyload lazypreview" data-order="3" data-bgset="/images/cars/elantra/m_pics/tech_6.jpg [(max-width: 640px)] | /images/cars/elantra/pics/tech_3.jpg">
+                    <div class="s-parallax__description">
+                        <span>Система подушек безопасности</span> система предупреждения водителя с&nbsp;дополнительной подушкой безопасности для&nbsp;защиты ног водителя.
+                    </div>
+                </li>
+            </ul>
+            <ul class="s-parallax__list s-parallax__list--right">
+                <li class="s-parallax__item s-parallax__item--right s-parallax__item--100 lazyload" data-order="2">
+                    <video class="s-parallax__video" autoplay muted loop data-object-fit="cover">
+                        <source data-src="/images/cars/elantra/video/07_tech_ahss.mp4" type="video/mp4">
+                    </video>
+                    <div class="s-parallax__back lazyload lazypreview" data-bgset="/images/cars/elantra/m_pics/tech_5.jpg">
+                    </div>
+                    <div class="s-parallax__description s-parallax__description--black">
+                        <span>Стальной корпус повышенной жесткости</span> обеспечивает надёжную защиту для водителя и пассажиров.
+                    </div>
+                </li>
+                <li class="s-parallax__item s-parallax__item--right s-parallax__item--50 lazyload lazypreview" data-order="4" data-bgset="/images/cars/elantra/m_pics/tech_7.jpg [(max-width: 640px)] | /images/cars/elantra/pics/tech_4.jpg">
+                    <div class="s-parallax__description">
+                        <span>Безопасные стеклоподъёмники</span> опускают стекло на&nbsp;15&nbsp;сантиметров, если в&nbsp;проёме обнаружен объект.
+                    </div>
+                </li>
+            </ul>
+        </section>
+
+        <section id="specs">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <specs-section car-id="27" model-type="Седан" number-of-seats="5" engine="Бензиновый" drive="Передний" gear-box="Автоматическая / Механическая" car-name="Elantra"></specs-section>
+
+                        <div class="section__center">
+                            <div class="df-help model-seo-text">
+                                <button class="df-help__icon model-seo-text__icon model-seo-text__icon--grey js-show-df-hint-popup">
+                                    <svg width="6" height="10" viewBox="0 0 6 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M1.82353 6.68588C1.79412 6.59942 1.76471 6.50336 1.73529 6.39769C1.71569 6.28242 1.70588 6.17195 1.70588 6.06628C1.70588 5.71086 1.78431 5.40346 1.94118 5.14409C2.09804 4.87512 2.35294 4.61575 2.70588 4.36599L3.36765 3.89049C3.59314 3.72719 3.77451 3.55908 3.91176 3.38617C4.05882 3.20365 4.13235 3.00192 4.13235 2.78098C4.13235 2.47358 4.01471 2.21902 3.77941 2.01729C3.55392 1.80596 3.2549 1.70029 2.88235 1.70029C2.5098 1.70029 2.20098 1.80115 1.95588 2.00288C1.72059 2.20461 1.56373 2.48319 1.48529 2.83862L0 2.17579C0.0882353 1.88761 0.210784 1.61383 0.367647 1.35447C0.52451 1.0951 0.72549 0.864553 0.970588 0.662824C1.21569 0.461095 1.5049 0.302593 1.83824 0.187319C2.18137 0.0624398 2.56863 0 3 0C3.44118 0 3.84314 0.0720462 4.20588 0.216138C4.57843 0.350624 4.89706 0.537944 5.16176 0.778097C5.42647 1.00864 5.63235 1.28722 5.77941 1.61383C5.92647 1.94044 6 2.29107 6 2.66571C6 2.9635 5.96078 3.23247 5.88235 3.47262C5.81373 3.70317 5.71569 3.91451 5.58824 4.10663C5.47059 4.28914 5.33333 4.45245 5.17647 4.59654C5.02941 4.74063 4.87745 4.87032 4.72059 4.98559L4.05882 5.46109C3.83333 5.6244 3.67157 5.7829 3.57353 5.9366C3.48529 6.0903 3.44118 6.29203 3.44118 6.54179V6.68588H1.82353ZM1.52941 7.79539H3.79412V10H1.52941V7.79539Z" fill="white"></path>
+                                    </svg>
+                                </button>
+                                <div class="df-hint-popup">
+                                    <a href="#" class="df-hint-popup__close js-close-df-hint-popup">
+                                        <svg width="8" height="8" viewBox="0 0 8 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <rect x="6.10352e-05" y="7.27264" width="10.2851" height="1.02851" transform="rotate(-45 6.10352e-05 7.27264)" fill="#002C5F"></rect>
+                                            <rect x="0.727234" width="10.2851" height="1.02851" transform="rotate(45 0.727234 0)" fill="#002C5F"></rect>
+                                        </svg>
+                                    </a>
+                                    <div class="df-hint-popup__text">
+                                        Выберите ближайший к&nbsp;Вам дилерский центр, оцените динамические характеристики автомобиля на&nbsp;тест-драйве и&nbsp;примите правильное решение: купить Hyundai Elantra. Для вас всегда есть удобные программы кредитования и&nbsp;другие выгодные предложения.
+                                    </div>
+                                </div>
+                            </div>				</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </div>
+</content-data>
 
 <?require($_SERVER["DOCUMENT_ROOT"]."/bitrix/footer.php");?>

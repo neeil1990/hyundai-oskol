@@ -173,10 +173,10 @@
                                 </a>
                             </li>
 
-						
+
 							 <li class="slider__item lazyload lazypreview" data-bgset="/storage/banners/1569994678_mob.jpg [(max-width: 640px)] | /storage/banners/1569994678.jpg">
                                 <a class="slider__link" href="https://mobility.hyundai.ru/tariffs/?utm_medium=referral&utm_source=hyundai.ru&utm_campaign=main_banner&_ga=2.67679641.945624496.1574067259-96980108.1555415333"  aria-label="Hyundai Mobility.">
-                             
+
                                     <div class="blue-panel">
                                         <div class="blue-panel__inner">
                                             <div>
@@ -197,7 +197,7 @@
                                     </div>
                                 </a>
                             </li>
-						
+
 						    <li class="slider__item lazyload lazypreview" data-bgset="/storage/banners/1573563508_mob.jpg [(max-width: 640px)] | /storage/banners/1573547214.jpg">
                                 <a class="slider__link" href="promo/suv-winter2020"  aria-label="Кроссоверы Hyundai.">
                                     <div class="slider__inner">
@@ -220,8 +220,8 @@
                                     </div>
                                 </a>
                             </li>
-						
-						
+
+
                             <li class="slider__item lazyload lazypreview" data-bgset="/storage/banners/1568186050_mob.jpg [(max-width: 640px)] | /storage/banners/1568184493.jpg">
                                 <a class="slider__link" href="/promo/creta-rock/"  aria-label="CRETA Rock Edition.">
                                     <div class="slider__inner">
@@ -267,7 +267,7 @@
                                     </div>
                                 </a>
                             </li>
-                        
+
 
                             <!--<li class="slider__item lazyload lazypreview" data-bgset="/storage/banners/1564410489_mob.jpg [(max-width: 640px)] | /storage/banners/1564410489.jpg">
                                 <a class="slider__link" href="/promo/cska_sponsorship"  aria-label="Фанпарк Hyundai на ВЭБ Арене">
@@ -322,8 +322,8 @@
                                     </div>
                                 </a>
                             </li> -->
-							
-							
+
+
 							<!-- <li class="slider__item lazyload lazypreview" data-bgset="/storage/banners/gonka-i30_mob.jpg [(max-width: 640px)] | /storage/banners/gonka-i30.jpg">
                                 <a class="slider__link" href="https://race.hyundai.ru/?_ga=2.238198336.197582221.1569225720-96980108.1555415333&_gac=1.223787497.1565685318.Cj0KCQjwv8nqBRDGARIsAHfR9wCu_mSOgM5UGtdb7il3wX1SreJLmqSRXU6nw5pISnhd2WxkGjjC0vAaAqusEALw_wcB"  aria-label="Участвуйте в виртуальной гонке на i30N.">
                                     <div class="slider__inner">
@@ -336,18 +336,18 @@
                                                 Поехали
                                             </div>
 
-                                         
-                                        
+
+
 
 
                                         </div>
                                     </div>
                                 </a>
                             </li>
-							
-					
-							
-							
+
+
+
+
                             <li class="slider__item lazyload lazypreview" data-bgset="/storage/banners/1568289623_mob.jpg [(max-width: 640px)] | /storage/banners/1568289623.jpg">
                                 <a class="slider__link" href="/promo/trade-in-sale/"  aria-label="Невероятный Hyundai i30 N.">
                                     <div class="slider__inner">
@@ -421,9 +421,9 @@
                                     </div>
                                 </a>
                             </li>
-                      
-                           
-                           
+
+
+
                             <li class="slider__item lazyload lazypreview" data-bgset="/storage/banners/1562082130_mob.jpg [(max-width: 640px)] | /storage/banners/1562082130.jpg">
                                 <a class="slider__link" href="/NewElantra"  aria-label="Новая ELANTRA.">
                                     <div class="slider__inner">
@@ -682,41 +682,41 @@
                                 <ul class="mir-b__list">
                                     <li class="mir-b__item">
                                         <div class="mir-b__icon ic-gift">
-                                            <svg  role="img" aria-hidden="true">
-                                                <use xlink:href="#ic-gift"></use>
+                                            <svg role="img" aria-hidden="true">
+                                                <use xlink:href="#mir-avatar"></use>
                                             </svg>
                                         </div>
                                         <div class="mir-b__description">
                                             Личный <br>кабинет
                                         </div>
-                                        <div class="mir-b__text df-text-input-14px">
+                                        <div class="mir-b__text">
                                             Информация об автомобиле всегда под рукой
                                         </div>
                                     </li>
                                     <li class="mir-b__item">
                                         <div class="mir-b__icon ic-fix">
-                                            <svg  role="img" aria-hidden="true">
-                                                <use xlink:href="#ic-fix"></use>
+                                            <svg role="img" aria-hidden="true">
+                                                <use xlink:href="#mir-testdrive"></use>
                                             </svg>
                                         </div>
                                         <div class="mir-b__description">
-                                            Запись &nbsp;на тест-драйв
+                                            Запись <br>на тест-драйв
                                         </div>
-                                        <div class="mir-b__text df-text-input-14px">
-                                            Выберите дилерский центр и пройдите тест-драйв автомобиля
+                                        <div class="mir-b__text">
+                                            Выберите дилерский центр и&nbsp;пройдите тест-драйв автомобиля
                                         </div>
                                     </li>
                                     <li class="mir-b__item">
-                                        <div class="mir-b__icon ic-fix">
-                                        <svg role="img" aria-hidden="true">
-                                            <use xlink:href="#mir-testdrive"></use>
-                                        </svg>
-                                    </div>
-                                        <div class="mir-b__description">
-                                            Клуб&nbsp;Hyundai
+                                        <div class="mir-b__icon ic-pig">
+                                            <svg role="img" aria-hidden="true">
+                                                <use xlink:href="#mir-club"></use>
+                                            </svg>
                                         </div>
-                                        <div class="mir-b__text df-text-input-14px">
-                                            Общайтесь и создавайте интересные маршруты
+                                        <div class="mir-b__description">
+                                            Клуб <br>Hyundai
+                                        </div>
+                                        <div class="mir-b__text">
+                                            Общайтесь и&nbsp;создавайте интересные маршруты
                                         </div>
                                     </li>
                                 </ul>

@@ -1,2 +1,2 @@
-<link rel="stylesheet" href="/css/cars/new-sonata/libs.css?id=bccde0935ab6db4d34ac">
-<link rel="stylesheet" href="/css/cars/new-sonata/new-sonata.css?id=a8b56b250b948356b186">
+<link rel="stylesheet" href="/css/cars/new-sonata/libs.css?id=634777349329f1cd7016">
+<link rel="stylesheet" href="/css/cars/new-sonata/new-sonata.css?id=c5976b38a924eddc1476">

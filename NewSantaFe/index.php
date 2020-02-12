@@ -192,8 +192,13 @@ $APPLICATION->SetTitle("Новый SANTA FE.");
                         </a>
                     </li>
                     <li class="nav__item">
-                        <a target="_blank" href="https://www.hyundai.ru/NewSantaFe/gallery" class="nav__link">
+                        <a target="_blank" href="/NewSantaFe/gallery" class="nav__link">
                             Галерея
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a target="_blank" href="http://brochures.hyundai.ru/?car=2020-SantaFe&amp;size=1" class="nav__link" target="_blank">
+                            Брошюра
                         </a>
                     </li>
                 </ul>
@@ -233,7 +238,7 @@ $APPLICATION->SetTitle("Новый SANTA FE.");
 
                 <div id="hotbuttons">
                     <!-- Установим активной модель. model Св-во codeName!!!!!! -->
-                    <hot-buttons :car-id="25" model="santa fe" :buttons="[1,1,1]"></hot-buttons>
+                    <hot-buttons :car-id="25" model="santa fe" :buttons="[1,1,1,1]" page="isModelPage"></hot-buttons>
                 </div>
             </section>
 
@@ -243,10 +248,10 @@ $APPLICATION->SetTitle("Новый SANTA FE.");
 
             <section id="design" class="design">
                 <presentation-section
-                    title = 'High-tech<br>дизайн.'
-                    background = '/images/santaFe/pics/2_design/design_title.jpg'
-                    background-mobile = '/images/santaFe/m_pics/02_design/design_title.jpg'
-                    :slides="[
+                        title = 'High-tech<br>дизайн.'
+                        background = '/images/santaFe/pics/2_design/design_title.jpg'
+                        background-mobile = '/images/santaFe/m_pics/02_design/design_title.jpg'
+                        :slides="[
 			{
 				icon: '/images/santaFe/svg/design_1.svg',
 				title: 'Уникальная решетка радиатора.',
@@ -357,6 +362,11 @@ $APPLICATION->SetTitle("Новый SANTA FE.");
                                     Theta-II 2.4 GDi
                                 </a>
                             </li>
+                            <li class="dynamics__tab">
+                                <a data-view="view2" href="#" class="dynamics__link js-change-view">
+                                    Lambda-II 3.5 MPI
+                                </a>
+                            </li>
                         </ul>
                     </div>
                 </div>
@@ -424,6 +434,38 @@ $APPLICATION->SetTitle("Новый SANTA FE.");
                         </div>
                     </li>
                 </ul>
+                <ul class="dynamics__specs dynamics__specs--2">
+                    <li class="dynamics__spec">
+                        <div class="dynamics__specs-w dynamics__specs-w--0">
+                            <div class="dynamics__description">
+                                <span id="count5"></span> л.с.
+                            </div>
+                            <div class="dynamics__text">
+                                Максимальная мощность
+                            </div>
+                        </div>
+                    </li>
+                    <li class="dynamics__spec">
+                        <div class="dynamics__specs-w dynamics__specs-w--1">
+                            <div class="dynamics__description">
+                                <span id="count6"></span>.8 сек
+                            </div>
+                            <div class="dynamics__text">
+                                Разгон до 100 км/ч
+                            </div>
+                        </div>
+                    </li>
+                    <li class="dynamics__spec">
+                        <div class="dynamics__specs-w dynamics__specs-w--2">
+                            <div class="dynamics__description">
+                                10.6 л / 100 км
+                            </div>
+                            <div class="dynamics__text">
+                                Средний расход топлива
+                            </div>
+                        </div>
+                    </li>
+                </ul>
                 <div class="dynamics__graph dynamics__graph--0">
                     <img src="/images/santaFe/pics/3_performance/d1.png">
                 </div>
@@ -460,10 +502,10 @@ $APPLICATION->SetTitle("Новый SANTA FE.");
 
             <section id="comfort" class="comfort">
                 <presentation-section
-                    title = 'Безупречный<br>комфорт.'
-                    background = '/images/santaFe/pics/4_comfort/comfort_title.jpg'
-                    background-mobile = '/images/santaFe/m_pics/04_comfort/comfort_title.jpg'
-                    :slides="[
+                        title = 'Безупречный<br>комфорт.'
+                        background = '/images/santaFe/pics/4_comfort/comfort_title.jpg'
+                        background-mobile = '/images/santaFe/m_pics/04_comfort/comfort_title.jpg'
+                        :slides="[
             {
                 icon: '/images/santaFe/svg/comfort_2.svg',
                 title: '7-дюймовая цифровая приборная панель.',
@@ -832,26 +874,39 @@ $APPLICATION->SetTitle("Новый SANTA FE.");
                 <div class="container">
                     <div class="row">
                         <div class="col-md-12">
-                            <specs-section car-id="25" model-type="Кроссовер" number-of-seats="5 или 7" engine="Бензиновый / Дизельный" drive="Полный" gear-box="Автоматическая"></specs-section>
+                            <specs-section car-id="25" model-type="Кроссовер" number-of-seats="5 или 7" engine="Бензиновый / Дизельный" drive="Полный" gear-box="Автоматическая" car-name="Santa Fe"></specs-section>
                             <div class="specs" style="padding-top: 0px;">
                                 <div class="section__center">
                                     <div class="dsclmr df-text-small-12px">
                                         <div class="dsclmr__icon"><svg width="2" height="9" viewBox="0 0 2 9" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M2 6.75H0V9H2V6.75Z" fill="white"></path> <path d="M0.133301 0H1.86663L1.5333 5.55H0.466634L0.133301 0Z" fill="white"></path></svg></div>
-                                        <div class="dsclmr__body">Платеж рассчитан по программе Hyundai Старт исходя цены Hyundai Santa Fe (Family 2,4л 6AT 4WD) 2 119 000 руб., 2019 года производства на условиях кредитного продукта «Hyundai Finance Special»: срок кредита 36 мес., процентная ставка 14.8% годовых, первоначальный взнос 1 008 600 руб., сумма кредита 1 110 400 руб.. Остаточный платеж (часть стоимости автомобиля, подлежащая оплате в конце срока кредита) ― 50% от цены ТС на момент покупки. Обязательно оформление полиса КАСКО на весь срок кредита в страховых компаниях, соответствующих требованиям Банка. Кредит предоставляется ПАО «Совкомбанк» Генеральная лицензия Банка России № 963 от 05 декабря 2014 года. Предложение действует с 01.01.2020 по 31.01.2020г., не является офертой. Условия могут быть изменены Банком в одностороннем порядке. Подробные условия кредитования на сайте www.sovcombank.ru</div>
+                                        <div class="dsclmr__body">Платеж рассчитан по программе Hyundai Старт исходя цены Hyundai Santa Fe (Family 2,4л 6AT 4WD) 2 119 000 руб., 2019 года производства на условиях кредитного продукта «Hyundai Finance Special»: срок кредита 36 мес., процентная ставка 14.8% годовых, первоначальный взнос 1 003 600 руб., сумма кредита 1 115 400 руб.. Остаточный платеж (часть стоимости автомобиля, подлежащая оплате в конце срока кредита) ― 50% от цены ТС на момент покупки. Обязательно оформление полиса КАСКО на весь срок кредита в страховых компаниях, соответствующих требованиям Банка. Кредит предоставляется ПАО «Совкомбанк» Генеральная лицензия Банка России № 963 от 05 декабря 2014 года. Предложение действует с 01.02.2020 по 29.02.2020г., не является офертой. Условия могут быть изменены Банком в одностороннем порядке. Подробные условия кредитования на сайте www.sovcombank.ru</div>
                                     </div>
                                 </div>
                             </div>
+
+                            <div class="section__center">
+                                <div class="df-help model-seo-text">
+                                    <button class="df-help__icon model-seo-text__icon model-seo-text__icon--grey js-show-df-hint-popup">
+                                        <svg width="6" height="10" viewBox="0 0 6 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M1.82353 6.68588C1.79412 6.59942 1.76471 6.50336 1.73529 6.39769C1.71569 6.28242 1.70588 6.17195 1.70588 6.06628C1.70588 5.71086 1.78431 5.40346 1.94118 5.14409C2.09804 4.87512 2.35294 4.61575 2.70588 4.36599L3.36765 3.89049C3.59314 3.72719 3.77451 3.55908 3.91176 3.38617C4.05882 3.20365 4.13235 3.00192 4.13235 2.78098C4.13235 2.47358 4.01471 2.21902 3.77941 2.01729C3.55392 1.80596 3.2549 1.70029 2.88235 1.70029C2.5098 1.70029 2.20098 1.80115 1.95588 2.00288C1.72059 2.20461 1.56373 2.48319 1.48529 2.83862L0 2.17579C0.0882353 1.88761 0.210784 1.61383 0.367647 1.35447C0.52451 1.0951 0.72549 0.864553 0.970588 0.662824C1.21569 0.461095 1.5049 0.302593 1.83824 0.187319C2.18137 0.0624398 2.56863 0 3 0C3.44118 0 3.84314 0.0720462 4.20588 0.216138C4.57843 0.350624 4.89706 0.537944 5.16176 0.778097C5.42647 1.00864 5.63235 1.28722 5.77941 1.61383C5.92647 1.94044 6 2.29107 6 2.66571C6 2.9635 5.96078 3.23247 5.88235 3.47262C5.81373 3.70317 5.71569 3.91451 5.58824 4.10663C5.47059 4.28914 5.33333 4.45245 5.17647 4.59654C5.02941 4.74063 4.87745 4.87032 4.72059 4.98559L4.05882 5.46109C3.83333 5.6244 3.67157 5.7829 3.57353 5.9366C3.48529 6.0903 3.44118 6.29203 3.44118 6.54179V6.68588H1.82353ZM1.52941 7.79539H3.79412V10H1.52941V7.79539Z" fill="white"></path>
+                                        </svg>
+                                    </button>
+                                    <div class="df-hint-popup">
+                                        <a href="#" class="df-hint-popup__close js-close-df-hint-popup">
+                                            <svg width="8" height="8" viewBox="0 0 8 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <rect x="6.10352e-05" y="7.27264" width="10.2851" height="1.02851" transform="rotate(-45 6.10352e-05 7.27264)" fill="#002C5F"></rect>
+                                                <rect x="0.727234" width="10.2851" height="1.02851" transform="rotate(45 0.727234 0)" fill="#002C5F"></rect>
+                                            </svg>
+                                        </a>
+                                        <div class="df-hint-popup__text">
+                                            Выберите ближайший к&nbsp;Вам дилерский центр, оцените динамические характеристики автомобиля на&nbsp;тест-драйве и&nbsp;примите правильное решение: купить Hyundai Santa Fe. Для вас всегда есть удобные программы кредитования и&nbsp;другие выгодные предложения.
+                                        </div>
+                                    </div>
+                                </div>				</div>
                         </div>
                     </div>
                 </div>
             </section>
-
-
-
-
-            <div id="tdpopup">
-                <sign-up-test-drive-form-popup v-if="isVisible" page="isModelPage"></sign-up-test-drive-form-popup>
-            </div>
             <script>
                 //Preloader
                 //init();
@@ -892,6 +947,5 @@ $APPLICATION->SetTitle("Новый SANTA FE.");
 
         </div>
     </content-data>
-
 
 <?require($_SERVER["DOCUMENT_ROOT"]."/bitrix/footer.php");?>
