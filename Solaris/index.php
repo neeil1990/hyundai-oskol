@@ -78,7 +78,7 @@ $APPLICATION->SetTitle("Solaris");
                 <div class="blue-label__bottom">
                     Субсидия на покупку<br> 10% от&nbsp;стоимости
                 </div>
-                <a href="https://www.hyundai.ru/promo/new_owners" class="blue-panel__more">
+                <a href="http://hyundai-oskol.ru/promo/new_owners/" class="blue-panel__more">
                     Подробнее
                     <svg>
                         <use xlink:href="#arrow-link"></use>

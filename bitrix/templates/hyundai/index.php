@@ -6,8 +6,37 @@
                     <div class="col-md-12">
                         <ul class="slider__body js-main-slider owl-carousel">
 
+<li class="slider__item lazyload lazypreview" data-bgset="/storage/banners/1581600941_mob.jpg [(max-width: 640px)] | /storage/banners/1581600941.jpg">
+                                <a class="slider__link" href="/NewSonata/"  aria-label="Новая Hyundai SONATA.">
+                                    <div class="slider__inner">
+                                        <h2 class="slider__title">Новая Hyundai SONATA.</h2>
+                                        <div class="slider__subtitle df-banner-subline">Искусственный интеллект. Истинные чувства.</div>
+                                    </div>
+                                    <div class="blue-panel">
+                                        <div class="blue-panel__inner">
+                                            <div>
+                                                от 1 499 000
+                                                &nbsp;₽														</div>
+
+                                            <div>
+                                                Доступно в рассрочку
+                                            </div>
+
+                                            <div class="blue-panel__more">
+                                                Подробнее!
+                                                <svg>
+                                                    <use xlink:href="#arrow-link"></use>
+                                                </svg>
+                                            </div>
+
+
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+
                             <li class="slider__item lazyload lazypreview" data-bgset="/storage/banners/1580136341_mob.jpg [(max-width: 640px)] | /storage/banners/1580136341.jpg">
-                                <a class="slider__link" href="№"  aria-label="Новая Hyundai SONATA.">
+                                <a class="slider__link" href="/promo/sonata_online"  aria-label="Новая Hyundai SONATA.">
                                     <div class="slider__inner">
                                         <h2 class="slider__title">Новая SONATA.</h2>
                                         <div class="slider__subtitle df-banner-subline">Уникальная комплектация Online.</div>
@@ -57,7 +86,7 @@
                             </li>
 
 <li class="slider__item lazyload lazypreview" data-bgset="/storage/banners/1577794735_mob.jpg [(max-width: 640px)] | /storage/banners/1577794735.jpg">
-                                <a class="slider__link" href="№" target=&quot;_blank&quot; aria-label="Продлить полис ОСАГО онлайн!">
+                                <a class="slider__link" href="/promo/katok" target=&quot;_blank&quot; aria-label="Продлить полис ОСАГО онлайн!">
                                     <div class="slider__inner">
                                         <h2 class="slider__title" style="color: white;">Найди комету Hyundai в Парке Горького!</h2>
                                         <div class="slider__subtitle df-banner-subline" style="color: white;">Отправь своё послание в космос.</div>

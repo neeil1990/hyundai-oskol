@@ -79,7 +79,7 @@ $APPLICATION->SetTitle("Creta");
                 <div class="blue-label__bottom">
                     Субсидия на покупку<br> 10% от&nbsp;стоимости
                 </div>
-                <a href="https://www.hyundai.ru/promo/family_car" class="blue-panel__more">
+                <a href="http://hyundai-oskol.ru/promo/family_car" class="blue-panel__more">
                     Подробнее
                     <svg>
                         <use xlink:href="#arrow-link"></use>
