@@ -205,36 +205,37 @@
                                                                 <h4 class="showroom__title">Новинки</h4>
                                                                 <ul class="showroom__cars">
 
-																 <li class="showroom__car showroom__car">
-                                                                        <a href="/promo/solaris_super_series_2" class="d-car">
+                                                                    <li class="showroom__car showroom__car
+                                                                        ">
+                                                                        <a href="/NewSolaris" class="d-car" aria-label="NEWSOLARIS">
                                                                             <div class="d-car__top-line">
-                                                                                <h5 class="d-car__title">СУПЕР СЕРИЯ II</h5>
+                                                                                <h5 class="d-car__title">Новый Солярис</h5>
                                                                                 <div class="d-car__name">/ SOLARIS</div>
                                                                             </div>
-                                                                            <div class="d-car__price">от 867 000 ₽</div>
-                                                                            <div class="d-car__m-name">СУПЕР СЕРИЯ II</div>
+                                                                            <div class="d-car__price">от 765 000 ₽</div>
+                                                                            <div class="d-car__m-name">SOLARIS</div>
                                                                             <div class="d-car__img">
-                                                                                <img class="showroom-lazyload" data-showroomsrc="/assets/ss/ss2_pic.png" alt="СУПЕР СЕРИЯ II">
+                                                                                <img class="showroom-lazyload" data-showroomsrc="/storage/cars/1582287446.png" alt="Новый SOLARIS">
                                                                             </div>
                                                                         </a>
                                                                     </li>
-																
-																
-																
-																
-																
-																
-																
-																
-																
-																
-																
-																
-																
-																
-																
-																
-																
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
                                                                     <li class="showroom__car showroom__car first-place">
                                                                         <a href="/promo/creta-rock" class="d-car">
                                                                             <div class="d-car__top-line">
@@ -248,7 +249,7 @@
                                                                             </div>
                                                                         </a>
                                                                     </li>
-                                                                   
+
                                                                     <li class="showroom__car showroom__car">
                                                                         <a href="/NewSonata" class="d-car" aria-label="NEWSONATA">
                                                                             <div class="d-car__top-line">
@@ -262,7 +263,7 @@
                                                                             </div>
                                                                         </a>
                                                                     </li>
-                                                                  
+
                                                                    <!-- <li class="showroom__car showroom__car">
                                                                         <a href="/i30N" class="d-car" aria-label="I30N">
                                                                             <div class="d-car__top-line">
@@ -322,7 +323,7 @@
                                                                             </div>
                                                                         </a>
                                                                     </li>
-<!-- 
+<!--
                                                                     <li class="showroom__car showroom__car">
                                                                         <a href="/Sonata" class="d-car" aria-label="SONATA">
                                                                             <div class="d-car__top-line">
@@ -337,11 +338,11 @@
                                                                         </a>
                                                                     </li>
 -->
-																
-																	
+
+
                                                                 </ul>
                                                             </li>
-															 
+
                                                             <li class="showroom__line">
                                                                 <h4 class="showroom__title">Кроссоверы</h4>
                                                                 <ul class="showroom__cars">
@@ -539,7 +540,7 @@
                                         Конфигуратор
                                     </a>
                                 </li>
-                                
+
                                 <li class="main-nav__item">
                                     <a href="/motorstudio_moscow" class="main-nav__link">
                                         Motorstudio
